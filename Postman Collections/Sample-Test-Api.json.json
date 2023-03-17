@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "59562e2e-a49c-48b4-a239-66d3a39c6924",
+		"name": "Sample Test Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Validate",
+			"item": [
+				{
+					"name": "New Request",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "67ecdf03-ca48-4f18-bd7b-01bb4e56535a",
+								"exec": [
+									"//1. Validating Test Status\r",
+									"    pm.test(\"Status is Present\",function(){\r",
+									"        //,function(){}  OR   ,()=>{}   Same\r",
+									"        pm.response.to.have.status(200) });\r",
+									"\r",
+									"    pm.test(\"Multiple Status Code Present\",()=>{//check multiple status codes\r",
+									"        pm.expect(pm.response.code).to.be.oneOf([200,201]);//values are always in array \r",
+									"    });\r",
+									"\r",
+									"//2. Validating Responce Time\r",
+									"    pm.test(\"ResponceTime is Less\",()=>{\r",
+									"        pm.expect(pm.response.responseTime).to.be.below(2002);\r",
+									"    })\r",
+									"\r",
+									"//3. Validating Status code text\r",
+									"    pm.test(\"Satus text is OK\",()=>{\r",
+									"         pm.response.to.have.status(\"OK\")//Status is case Sensitive \r",
+									"    })\r",
+									"\r",
+									"//4. Validating Headers Present or Not\r",
+									"    pm.test(\"Status text is String\",()=>{\r",
+									"         pm.response.to.have.header(\"age\");//Headers are Not-Case Sensitive \r",
+									"    })\r",
+									"\r",
+									"//5. Validating responce header Having specific value\r",
+									"    pm.test(\"Connection Header is keep-alive\",function(){\r",
+									"        pm.expect(pm.response.headers.get('Connection')).to.eql('keep-alive');//value is case sensitive\r",
+									"    })\r",
+									"\r",
+									"//6. VALIDATING Cookies is Present\r",
+									"   // pm.test(\"Cookie 'name of Cookie' is present\",()=>{\r",
+									"     //   pm.expect(pm.cookies.has('name of Cookie')).to.be.true })\r",
+									"\r",
+									"//7. VALIDATING Cookies Value\r",
+									"//   pm.test(\"Cookie 'name of Cookie' is present\",()=>{\r",
+									"  //   pm.expect(pm.cookies.has('name of Cookie')).to.eql('Value') })\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"_postman_id": "a2f57e52-c21f-4a66-9dad-dcddade26857",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\"Message\"",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://reqres.in/api/user/2"
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "3a8e64ff-4c3e-4efb-bdcc-d35c4e1d6086",
+								"exec": [
+									"pm.test(\"Status Code is Created\",()=>{\r",
+									"    pm.response.to.have.status(201);\r",
+									"})\r",
+									"\r",
+									"pm.test(\"Response Time is Less\",function(){\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(4000);\r",
+									"})\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"_postman_id": "a3eddbe8-90fd-47d8-8fb5-ac586af97ba3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"morpheus\",\r\n    \"job\": \"leader\"\r\n   \r\n  \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://reqres.in/api/users"
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"_postman_id": "f05db715-9889-4475-9610-7873381562a5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "https://reqres.in/api/users/500"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "6737d13d-c08c-4232-afe4-eb5448d8606c"
+		}
+	]
+}
