@@ -265,7 +265,7 @@
 								"id": "76a22571-aa75-49b6-a9d4-4b89622a4fa1",
 								"exec": [
 									"//GlobalVariable\r",
-									"pm.globals.set(\"User_id\",\"5\")"
+									"pm.globals.set(\"User_id\",\"5\");"
 								],
 								"type": "text/javascript"
 							}
@@ -336,7 +336,7 @@
 	],
 	"variable": [
 		{
-			"id": "40b1ed3f-eb5b-41bc-84c6-42c9da623bbc",
+			"id": "e846112c-ca97-422f-8a6f-66c6c58759f0",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
