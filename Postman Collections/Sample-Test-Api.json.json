@@ -170,7 +170,7 @@
 									"//Request Level Pre-Request Script\r",
 									"console.log(\"Pre-request Script at Request Level\");\r",
 									"\r",
-									"//url_Global is Global Variable"
+									"//url_Global is Global Variable= Anyone is Use in Workspace"
 								],
 								"type": "text/javascript"
 							}
@@ -293,7 +293,7 @@
 	],
 	"variable": [
 		{
-			"id": "71d7c3d1-99ff-4d76-a9b6-8d1152bec4aa",
+			"id": "4eb43cf6-191c-42d3-a723-eca0708d14e6",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
