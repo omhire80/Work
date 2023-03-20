@@ -158,7 +158,9 @@
 								"id": "7fb23b14-bf0f-43f3-8767-04fae8c8db61",
 								"exec": [
 									"//Request Level Pre-Request Script\r",
-									"console.log(\"Pre-request Script at Request Level\");"
+									"console.log(\"Pre-request Script at Request Level\");\r",
+									"\r",
+									"//url_Global is Global Variable"
 								],
 								"type": "text/javascript"
 							}
@@ -281,7 +283,7 @@
 	],
 	"variable": [
 		{
-			"id": "a3bbe6dd-1228-4156-834a-b3ee116147e5",
+			"id": "8d0d23be-a989-475d-97cf-ccbdb3193892",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
