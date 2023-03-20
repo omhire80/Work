@@ -103,7 +103,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "https://reqres.in/api/users/500"
+						"url": "{{url_Global}}/api/users/500"
 					},
 					"response": []
 				},
@@ -297,7 +297,7 @@
 	],
 	"variable": [
 		{
-			"id": "4c588b70-00b7-4ee8-a244-21eff40ad81d",
+			"id": "9a0f5f61-27d4-43f5-9328-1c6fe0ee8f63",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
