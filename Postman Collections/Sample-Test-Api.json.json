@@ -163,7 +163,7 @@
 								}
 							}
 						},
-						"url": "{{url_Global}}/api/"
+						"url": "{{url_Global}}/api/users/2"
 					},
 					"response": []
 				}
@@ -195,7 +195,7 @@
 	],
 	"variable": [
 		{
-			"id": "64f36369-7e08-4951-a03a-de44b760960c",
+			"id": "955deea1-295b-40ba-9818-00aac95879c7",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
