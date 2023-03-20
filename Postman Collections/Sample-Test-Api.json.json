@@ -293,7 +293,7 @@
 									"        console.log(pm.variables.get(\"url_Local\"));\r",
 									"\r",
 									"    //Global Variabes\r",
-									"        console.lob(pm.globals.get(\"\"));\r",
+									"        console.lob(pm.globals.get(\"User_id\"));\r",
 									"\r",
 									"//Delete Global Variable After use\r",
 									"pm.globals.unset(\"User_id\");\r",
@@ -375,7 +375,7 @@
 	],
 	"variable": [
 		{
-			"id": "4a65a34e-4f6a-4102-8f17-5df5392a9f61",
+			"id": "5a9ce9e9-81cf-4126-9360-034e6505babc",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
