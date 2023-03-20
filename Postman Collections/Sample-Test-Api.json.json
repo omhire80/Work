@@ -138,7 +138,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"morpheus\",\r\n    \"job\": \"leader\"\r\n   \r\n  \r\n}",
+							"raw": "{\r\n    \"name\": \"morpheus\",\r\n    \"job\": \"leader\"\r\n    \"id\" : \"565\"\r\n   \r\n  \r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -283,7 +283,7 @@
 	],
 	"variable": [
 		{
-			"id": "8d0d23be-a989-475d-97cf-ccbdb3193892",
+			"id": "62e6bf97-1296-46fe-acb4-4f1c363ad954",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
