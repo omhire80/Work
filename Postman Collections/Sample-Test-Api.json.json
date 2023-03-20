@@ -56,6 +56,17 @@
 								],
 								"type": "text/javascript"
 							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "bc014f20-8a61-4fe8-b0cc-3ed650bf89ff",
+								"exec": [
+									"//Request Level Pre-Request Script\r",
+									"console.log(\"Pre-request Script at Request Level\");"
+								],
+								"type": "text/javascript"
+							}
 						}
 					],
 					"id": "a2f57e52-c21f-4a66-9dad-dcddade26857",
@@ -247,7 +258,7 @@
 	],
 	"variable": [
 		{
-			"id": "cdc77c43-3da9-4fb4-8861-094b34a719d8",
+			"id": "9048b0cd-e666-4655-b98c-f234c41e1bee",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
