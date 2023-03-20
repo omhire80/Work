@@ -273,17 +273,20 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "57e5e3bb-01bc-4a85-a8e1-4f15c449be79",
+				"id": "5cc1d0b4-21a5-4dc3-8fa0-836d4739681c",
 				"type": "text/javascript",
 				"exec": [
-					"console.log(\"Pre-Reqeust at Collection Level\") "
+					"console.log(\"Pre-Reqeust at Collection Level\") ",
+					"",
+					"",
+					"//url_Collection is collection variable = used in collection only"
 				]
 			}
 		},
 		{
 			"listen": "test",
 			"script": {
-				"id": "e8f2876a-e2fe-4bb8-9bab-34637bb1deb2",
+				"id": "4a9fd388-b5fc-46d2-ad1e-f2393a1412ba",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -293,7 +296,7 @@
 	],
 	"variable": [
 		{
-			"id": "6f77293f-02a5-4fab-a6ed-c120a778d41f",
+			"id": "831d1d35-2852-49a8-8deb-241246f0e1d5",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
