@@ -257,7 +257,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Variables by Pre-Request Script",
 					"id": "2eacf9e1-c4c4-440b-9327-8d67bf92ff3a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -322,7 +322,7 @@
 	],
 	"variable": [
 		{
-			"id": "b0750722-698e-4cc0-9ae6-cdc9a79f6e9d",
+			"id": "212bbb86-7a14-42d3-becc-dd508b23d362",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
