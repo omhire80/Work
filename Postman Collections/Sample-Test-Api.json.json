@@ -16,6 +16,11 @@
 							"script": {
 								"id": "67ecdf03-ca48-4f18-bd7b-01bb4e56535a",
 								"exec": [
+									"//Request Level Test Script\r",
+									"console.log(\"Test Script at Request Level\");\r",
+									"\r",
+									"\r",
+									"\r",
 									"//1. Validating Test Status\r",
 									"    pm.test(\"Status is Present\",function(){\r",
 									"        //,function(){}  OR   ,()=>{}   Same\r",
@@ -258,7 +263,7 @@
 	],
 	"variable": [
 		{
-			"id": "9048b0cd-e666-4655-b98c-f234c41e1bee",
+			"id": "aab86246-023d-41d5-8efb-010d8cffd67f",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
