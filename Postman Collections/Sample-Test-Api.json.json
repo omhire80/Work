@@ -192,6 +192,10 @@
 							"script": {
 								"id": "4d4d6e57-16d3-4770-9d39-9f588a58734f",
 								"exec": [
+									"//Request Level Pre-Request Script\r",
+									"console.log(\"Pre-request Script at Request Level\");\r",
+									"\r",
+									"\r",
 									"pm.test(\"Dleted Sucesfully\",()=>{\r",
 									"    pm.response.to.have.status(204);\r",
 									"\r",
@@ -274,7 +278,7 @@
 	],
 	"variable": [
 		{
-			"id": "759fcfdd-425c-4276-97ad-148f0838c26e",
+			"id": "2235ce82-fc74-4b43-a5f1-4c648d1160b3",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
