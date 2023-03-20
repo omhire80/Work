@@ -181,7 +181,30 @@
 					"response": []
 				}
 			],
-			"id": "6737d13d-c08c-4232-afe4-eb5448d8606c"
+			"id": "6737d13d-c08c-4232-afe4-eb5448d8606c",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "564807d1-f28c-4b5a-a25a-ec5c338c4f17",
+						"type": "text/javascript",
+						"exec": [
+							"//Folder Level Pre-Request Script",
+							"console.log(\"Pre-request Script at Folder Level\");"
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "7fd7aa6e-a839-4e01-a942-f5eacea89d8c",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
 		}
 	],
 	"event": [
@@ -208,7 +231,7 @@
 	],
 	"variable": [
 		{
-			"id": "fbd2f3f3-6115-446f-b367-eb7389ec208e",
+			"id": "944ea63f-6c59-4c55-bb76-fda1b5a40d9c",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
