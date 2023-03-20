@@ -142,7 +142,7 @@
 								"id": "4d4d6e57-16d3-4770-9d39-9f588a58734f",
 								"exec": [
 									"pm.test(\"Dleted Sucesfully\",()=>{\r",
-									"    pm.response.to.have.status(401);\r",
+									"    pm.response.to.have.status(204);\r",
 									"\r",
 									"})"
 								],
@@ -247,7 +247,7 @@
 	],
 	"variable": [
 		{
-			"id": "a311e08e-265d-4623-9e61-b5f8e54ff00c",
+			"id": "6d470db6-003f-4c5f-93b8-134de12caccc",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
