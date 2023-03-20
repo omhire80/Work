@@ -364,15 +364,10 @@
 	],
 	"variable": [
 		{
-			"id": "4451e896-0a65-4d22-bf62-98959cfd529d",
+			"id": "fd708229-3c2e-40cb-94b8-b842fc3be7db",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
-		},
-		{
-			"id": "cb40aa98-c3c4-463f-9944-ce2f31bfb086",
-			"key": "collectionVariable",
-			"value": ""
 		}
 	]
 }
