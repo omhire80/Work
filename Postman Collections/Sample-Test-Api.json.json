@@ -223,7 +223,7 @@
 					"request": {
 						"method": "DELETE",
 						"header": [],
-						"url": "https://reqres.in/api/unknown/2"
+						"url": "{{url_Enviroment}}/api/unknown/2"
 					},
 					"response": []
 				}
@@ -278,7 +278,7 @@
 	],
 	"variable": [
 		{
-			"id": "b854a66d-a81a-4b9d-abc4-be3321ae6f5d",
+			"id": "f4273bf6-8974-4ac1-b9af-7fc742cb3f86",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
