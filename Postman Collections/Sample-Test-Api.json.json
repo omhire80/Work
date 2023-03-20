@@ -226,7 +226,7 @@
 									"console.log(\"Pre-request Script at Request Level\");\r",
 									"\r",
 									"\r",
-									"//url_Environment is Environmental url_Environmental variable= used in environment only  ALSO USED IN DIFFERENT collections but need to change environment "
+									"//url_Environment is Environmental url_Environmental variable= used in environment only $ ALSO USED IN DIFFERENT collections but need to change environment "
 								],
 								"type": "text/javascript"
 							}
@@ -297,7 +297,7 @@
 	],
 	"variable": [
 		{
-			"id": "5f63b2dd-33a7-416e-9bdc-df6117d36664",
+			"id": "4c588b70-00b7-4ee8-a244-21eff40ad81d",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
