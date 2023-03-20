@@ -255,6 +255,18 @@
 						"url": "{{url_Environment}}/api/unknown/2"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "2eacf9e1-c4c4-440b-9327-8d67bf92ff3a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "6737d13d-c08c-4232-afe4-eb5448d8606c",
@@ -310,7 +322,7 @@
 	],
 	"variable": [
 		{
-			"id": "7eddef3e-ef71-46cd-8185-51de63f0d0c9",
+			"id": "b0899c35-1e30-4665-b032-fe7500725789",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
