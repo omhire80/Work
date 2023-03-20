@@ -183,7 +183,8 @@
 									"//Request Level Pre-Request Script\r",
 									"console.log(\"Pre-request Script at Request Level\");\r",
 									"\r",
-									"//local variables is request level variables"
+									"//local variables is request level variables\r",
+									"pm.variables.set(\"url_Local\",\"https://reqres.in\")"
 								],
 								"type": "text/javascript"
 							}
@@ -309,7 +310,7 @@
 	],
 	"variable": [
 		{
-			"id": "513bede2-2c20-4ad2-bdd8-dd7d7faf25ae",
+			"id": "7eddef3e-ef71-46cd-8185-51de63f0d0c9",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
