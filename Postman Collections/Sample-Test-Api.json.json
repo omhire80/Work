@@ -58,7 +58,7 @@
 							}
 						}
 					],
-					"_postman_id": "a2f57e52-c21f-4a66-9dad-dcddade26857",
+					"id": "a2f57e52-c21f-4a66-9dad-dcddade26857",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -100,7 +100,7 @@
 							}
 						}
 					],
-					"_postman_id": "a3eddbe8-90fd-47d8-8fb5-ac586af97ba3",
+					"id": "a3eddbe8-90fd-47d8-8fb5-ac586af97ba3",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -122,7 +122,7 @@
 				},
 				{
 					"name": "New Request",
-					"_postman_id": "f05db715-9889-4475-9610-7873381562a5",
+					"id": "f05db715-9889-4475-9610-7873381562a5",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -132,9 +132,21 @@
 						"url": "https://reqres.in/api/users/500"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "952f3706-6bbb-465b-a07f-c5f23f941cdd",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
-			"_postman_id": "6737d13d-c08c-4232-afe4-eb5448d8606c"
+			"id": "6737d13d-c08c-4232-afe4-eb5448d8606c"
 		}
 	]
 }
