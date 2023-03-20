@@ -127,6 +127,16 @@
 								],
 								"type": "text/javascript"
 							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "c922c3fa-1fbf-447d-8894-408f6eae94ab",
+								"exec": [
+									"//Local Variable = request level variable"
+								],
+								"type": "text/javascript"
+							}
 						}
 					],
 					"id": "a3eddbe8-90fd-47d8-8fb5-ac586af97ba3",
@@ -283,7 +293,7 @@
 	],
 	"variable": [
 		{
-			"id": "b9ee06f7-a59f-43c1-8867-e07ad7f3171c",
+			"id": "71d7c3d1-99ff-4d76-a9b6-8d1152bec4aa",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
