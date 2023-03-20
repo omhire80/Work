@@ -280,6 +280,23 @@
 								],
 								"type": "text/javascript"
 							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "c0204826-2ed9-46e7-b7ce-f8da5d1196c2",
+								"exec": [
+									"//Delete Global Variable After use\r",
+									"pm.globals.unset(\"User_id\",\"5\");\r",
+									"\r",
+									"//Environment Variable\r",
+									"pm.environment.unset(\"url_Environment\",\"https://reqres.in/api\");\r",
+									"\r",
+									"//Collection Variables\r",
+									"pm.collectionVariables.unset(\"collectionVariable\",\"56\");"
+								],
+								"type": "text/javascript"
+							}
 						}
 					],
 					"id": "2eacf9e1-c4c4-440b-9327-8d67bf92ff3a",
@@ -347,13 +364,13 @@
 	],
 	"variable": [
 		{
-			"id": "0e655bcc-3454-4622-89af-b71548bd61d4",
+			"id": "4451e896-0a65-4d22-bf62-98959cfd529d",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "25cfe2cf-d339-476e-bb1d-8860bf04c72b",
+			"id": "cb40aa98-c3c4-463f-9944-ce2f31bfb086",
 			"key": "collectionVariable",
 			"value": ""
 		}
