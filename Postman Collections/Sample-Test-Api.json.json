@@ -135,6 +135,21 @@
 				},
 				{
 					"name": "New Request",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "4d4d6e57-16d3-4770-9d39-9f588a58734f",
+								"exec": [
+									"pm.test(\"Dleted Sucesfully\",()=>{\r",
+									"    pm.response.to.have.status(401);\r",
+									"\r",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "952f3706-6bbb-465b-a07f-c5f23f941cdd",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -232,7 +247,7 @@
 	],
 	"variable": [
 		{
-			"id": "7a023fa7-6e06-4a46-b442-2aee219013a1",
+			"id": "a311e08e-265d-4623-9e61-b5f8e54ff00c",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
