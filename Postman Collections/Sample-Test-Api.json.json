@@ -183,7 +183,7 @@
 									"//Request Level Pre-Request Script\r",
 									"console.log(\"Pre-request Script at Request Level\");\r",
 									"\r",
-									"//url_Global is Global Variable= Anyone is Use in Workspace"
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -205,7 +205,7 @@
 								}
 							}
 						},
-						"url": "{{url_Global}}/api/users/2"
+						"url": "{{url_Local}}/api/users/2"
 					},
 					"response": []
 				},
@@ -309,7 +309,7 @@
 	],
 	"variable": [
 		{
-			"id": "12158b32-6241-4b02-99c7-7fed154a0562",
+			"id": "dba4cd68-f894-4aa3-ad1b-38ab4eae9abd",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
