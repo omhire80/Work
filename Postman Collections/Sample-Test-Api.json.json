@@ -272,7 +272,7 @@
 									"pm.globals.set(\"User_id\",\"5\");\r",
 									"\r",
 									"//Environment Variable\r",
-									"pm.environment.set(\"\",\"\");\r",
+									"pm.environment.set(\"url_Environment\",\"https://reqres.in/api\");\r",
 									""
 								],
 								"type": "text/javascript"
@@ -344,7 +344,7 @@
 	],
 	"variable": [
 		{
-			"id": "6d0d970f-595a-4c39-a676-b4cf6a9e3281",
+			"id": "edcac7ee-f20c-4518-97a4-8c1072ad4949",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
