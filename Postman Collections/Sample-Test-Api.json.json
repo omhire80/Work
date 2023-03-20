@@ -96,6 +96,18 @@
 				},
 				{
 					"name": "New Request",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "255c8002-78be-4834-9d2d-6cdeb1ca4695",
+								"exec": [
+									"//url_Global is Global Variable= Anyone is Use in Workspace"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "f05db715-9889-4475-9610-7873381562a5",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -297,7 +309,7 @@
 	],
 	"variable": [
 		{
-			"id": "9a0f5f61-27d4-43f5-9328-1c6fe0ee8f63",
+			"id": "12158b32-6241-4b02-99c7-7fed154a0562",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
