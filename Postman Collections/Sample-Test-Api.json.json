@@ -289,8 +289,9 @@
 								"id": "c0204826-2ed9-46e7-b7ce-f8da5d1196c2",
 								"exec": [
 									"//Print OR get values of Variables\r",
-									"    //local Vriable\r",
-									"    pm.variables.get(\"url_Local\");\r",
+									"    //Local Vriable\r",
+									"        pm.variables.get(\"url_Local\");\r",
+									"    //Global Variabes\r",
 									"\r",
 									"\r",
 									"//Delete Global Variable After use\r",
@@ -373,7 +374,7 @@
 	],
 	"variable": [
 		{
-			"id": "d1042003-fb19-4ca8-8e8c-1eaf043e9712",
+			"id": "07faf350-49fa-4eee-8898-2ef903fe621c",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
