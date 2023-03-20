@@ -293,7 +293,9 @@
 									"pm.environment.unset(\"url_Environment\");\r",
 									"\r",
 									"//Delete Collection Variables After Use\r",
-									"pm.collectionVariables.unset(\"collectionVariable\");"
+									"pm.collectionVariables.unset(\"collectionVariable\");\r",
+									"\r",
+									"//Value Name(Key) is need Only Not Value"
 								],
 								"type": "text/javascript"
 							}
@@ -364,7 +366,7 @@
 	],
 	"variable": [
 		{
-			"id": "f30a9cb1-da10-4e76-8ddd-945ef35081fc",
+			"id": "32eec596-6867-4f01-ada6-31a746f7b2e8",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
