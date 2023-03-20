@@ -284,7 +284,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "https://reqres.in/api/user/{{User_id}}"
+						"url": "{{url_Local}}/api/user/{{User_id}}"
 					},
 					"response": []
 				}
@@ -342,7 +342,7 @@
 	],
 	"variable": [
 		{
-			"id": "4d8f143b-e352-4698-8e0b-d60979495082",
+			"id": "67aba0ec-fb20-4120-87c2-c4d8ad892a03",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
