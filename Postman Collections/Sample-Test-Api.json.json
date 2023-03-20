@@ -153,7 +153,17 @@
 					},
 					"request": {
 						"method": "PUT",
-						"header": []
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"morpheus\",\r\n    \"job\": \"zion resident\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{url_Global}}/api/"
 					},
 					"response": []
 				}
@@ -185,7 +195,7 @@
 	],
 	"variable": [
 		{
-			"id": "99a6bc90-7362-4a2e-bb28-668ead4b2cc5",
+			"id": "64f36369-7e08-4951-a03a-de44b760960c",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
