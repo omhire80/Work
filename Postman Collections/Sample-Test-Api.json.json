@@ -96,6 +96,19 @@
 				},
 				{
 					"name": "New Request",
+					"id": "f05db715-9889-4475-9610-7873381562a5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "https://reqres.in/api/users/500"
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
 					"event": [
 						{
 							"listen": "test",
@@ -138,47 +151,6 @@
 				},
 				{
 					"name": "New Request",
-					"id": "f05db715-9889-4475-9610-7873381562a5",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": "https://reqres.in/api/users/500"
-					},
-					"response": []
-				},
-				{
-					"name": "New Request",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"id": "4d4d6e57-16d3-4770-9d39-9f588a58734f",
-								"exec": [
-									"pm.test(\"Dleted Sucesfully\",()=>{\r",
-									"    pm.response.to.have.status(204);\r",
-									"\r",
-									"})"
-								],
-								"type": "text/javascript"
-							}
-						}
-					],
-					"id": "952f3706-6bbb-465b-a07f-c5f23f941cdd",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "DELETE",
-						"header": [],
-						"url": "https://reqres.in/api/unknown/2"
-					},
-					"response": []
-				},
-				{
-					"name": "New Request",
 					"event": [
 						{
 							"listen": "prerequest",
@@ -209,6 +181,45 @@
 							}
 						},
 						"url": "{{url_Global}}/api/users/2"
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "4d4d6e57-16d3-4770-9d39-9f588a58734f",
+								"exec": [
+									"pm.test(\"Dleted Sucesfully\",()=>{\r",
+									"    pm.response.to.have.status(204);\r",
+									"\r",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "7770d12a-1a2e-4beb-84d9-da837cbb950c",
+								"exec": [
+									"//Request Level Pre-Request Script\r",
+									"console.log(\"Pre-request Script at Request Level\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "952f3706-6bbb-465b-a07f-c5f23f941cdd",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "https://reqres.in/api/unknown/2"
 					},
 					"response": []
 				}
@@ -263,7 +274,7 @@
 	],
 	"variable": [
 		{
-			"id": "aab86246-023d-41d5-8efb-010d8cffd67f",
+			"id": "759fcfdd-425c-4276-97ad-148f0838c26e",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
