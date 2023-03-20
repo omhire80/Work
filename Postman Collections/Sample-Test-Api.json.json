@@ -298,7 +298,8 @@
 									"    //Environment Variables\r",
 									"        console.log(pm.environment.get(\"url_Environment\"));\r",
 									"\r",
-									"    //\r",
+									"    //Collection VAriables\r",
+									"        console.log(pm.collectionVariables.get(\"collectionVariable\"));\r",
 									"\r",
 									"//Delete Global Variable After use\r",
 									"pm.globals.unset(\"User_id\");\r",
@@ -380,7 +381,7 @@
 	],
 	"variable": [
 		{
-			"id": "389d1bd3-8ecb-4903-b454-1924005c1d7f",
+			"id": "3d5544f1-a9c5-441e-ad36-2af25e9d4b86",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
