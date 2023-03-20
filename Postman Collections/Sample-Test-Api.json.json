@@ -141,7 +141,8 @@
 					},
 					"request": {
 						"method": "DELETE",
-						"header": []
+						"header": [],
+						"url": "https://reqres.in/api/unknown/2"
 					},
 					"response": []
 				},
@@ -231,7 +232,7 @@
 	],
 	"variable": [
 		{
-			"id": "311a02da-508f-4918-a35e-c1741fdede3d",
+			"id": "7a023fa7-6e06-4a46-b442-2aee219013a1",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
