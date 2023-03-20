@@ -74,7 +74,7 @@
 								}
 							}
 						},
-						"url": "https://reqres.in/api/user/2"
+						"url": "{{url_Collection}}/api/user/2"
 					},
 					"response": []
 				},
@@ -185,7 +185,7 @@
 	],
 	"variable": [
 		{
-			"id": "8f556b0f-3228-413c-bdca-9f36d7bb73a6",
+			"id": "99a6bc90-7362-4a2e-bb28-668ead4b2cc5",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
