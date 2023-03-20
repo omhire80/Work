@@ -265,12 +265,14 @@
 								"id": "76a22571-aa75-49b6-a9d4-4b89622a4fa1",
 								"exec": [
 									"//Local variable\r",
-									"pm.variables.set(\"url_Local\",\"https://reqres.in/api\")\r",
+									"pm.variables.set(\"url_Local\",\"https://reqres.in/api\");\r",
 									"\r",
 									"\r",
-									"//GlobalVariable\r",
+									"//Global Variable\r",
 									"pm.globals.set(\"User_id\",\"5\");\r",
 									"\r",
+									"//Environment Variable\r",
+									"pm.environment.set(\"\",\"\");\r",
 									""
 								],
 								"type": "text/javascript"
@@ -342,7 +344,7 @@
 	],
 	"variable": [
 		{
-			"id": "f1c5c69d-3a9a-4535-a37c-664aa7c9e19d",
+			"id": "6d0d970f-595a-4c39-a676-b4cf6a9e3281",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
