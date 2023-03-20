@@ -160,5 +160,35 @@
 			],
 			"id": "6737d13d-c08c-4232-afe4-eb5448d8606c"
 		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "d5621a70-ac2d-43c1-9723-c6fee1952b26",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "156bb14d-1136-45b3-9d87-eecadeb8521b",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "8f556b0f-3228-413c-bdca-9f36d7bb73a6",
+			"key": "url_Collection",
+			"value": "https://reqres.in",
+			"type": "string"
+		}
 	]
 }
