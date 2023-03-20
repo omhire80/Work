@@ -264,7 +264,7 @@
 							"script": {
 								"id": "76a22571-aa75-49b6-a9d4-4b89622a4fa1",
 								"exec": [
-									"//Local variable\r",
+									"//Local variable (it Will Deleted After Use/ When Resquest sends)\r",
 									"pm.variables.set(\"url_Local\",\"https://reqres.in/api\");\r",
 									"\r",
 									"\r",
@@ -364,7 +364,7 @@
 	],
 	"variable": [
 		{
-			"id": "54715137-d177-49e9-a6b3-bea377cb7ad3",
+			"id": "0f94a22d-95fc-4c82-8867-40fd8a496ff7",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
