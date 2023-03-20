@@ -258,6 +258,19 @@
 				},
 				{
 					"name": "Variables by Pre-Request Script",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "76a22571-aa75-49b6-a9d4-4b89622a4fa1",
+								"exec": [
+									"//GlobalVariable\r",
+									"pm.globals.set(\"User_id\",\"5\")"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "2eacf9e1-c4c4-440b-9327-8d67bf92ff3a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -323,7 +336,7 @@
 	],
 	"variable": [
 		{
-			"id": "91b718b0-131a-48b0-9898-0771ebff4f23",
+			"id": "40b1ed3f-eb5b-41bc-84c6-42c9da623bbc",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
