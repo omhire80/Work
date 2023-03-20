@@ -289,10 +289,10 @@
 									"//Delete Global Variable After use\r",
 									"pm.globals.unset(\"User_id\",\"5\");\r",
 									"\r",
-									"//Environment Variable\r",
+									"//Delete Environment Variable After Use\r",
 									"pm.environment.unset(\"url_Environment\",\"https://reqres.in/api\");\r",
 									"\r",
-									"//Collection Variables\r",
+									"//Delete Collection Variables After Use\r",
 									"pm.collectionVariables.unset(\"collectionVariable\",\"56\");"
 								],
 								"type": "text/javascript"
@@ -364,7 +364,7 @@
 	],
 	"variable": [
 		{
-			"id": "fd708229-3c2e-40cb-94b8-b842fc3be7db",
+			"id": "54715137-d177-49e9-a6b3-bea377cb7ad3",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
