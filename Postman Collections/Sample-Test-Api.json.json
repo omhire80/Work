@@ -476,7 +476,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Get post data",
 					"event": [
 						{
 							"listen": "test",
@@ -595,13 +595,13 @@
 	],
 	"variable": [
 		{
-			"id": "c671263c-1073-46cf-bd1d-d1366905bc09",
+			"id": "e6a11b57-b634-4b64-b3e1-4530ecf7e228",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "7418a8e5-f2f1-44a4-badd-fd2f9ca783fa",
+			"id": "311fec6e-b553-4251-bb11-bbc03adc4948",
 			"key": "collectionVariable",
 			"value": ""
 		}
