@@ -574,6 +574,25 @@
 								],
 								"type": "text/javascript"
 							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "eb3a1e25-9a53-4d9b-a388-7b4569237284",
+								"exec": [
+									"//Create Random Variables\r",
+									"    //1. var random =Store randomly created data\r",
+									"    var random= Math.random().toString(30).substring(5);\r",
+									"\r",
+									"        //Random Email Create\r",
+									"        var Email= \"jay\"+ random+ \"@gamil.com\";\r",
+									"\r",
+									"        //Random Name Create\r",
+									"        var Name=\"jay\" +random;\r",
+									""
+								],
+								"type": "text/javascript"
+							}
 						}
 					],
 					"id": "2b16dd78-2e47-4d9a-ad22-381fc8d8cda9",
@@ -701,23 +720,23 @@
 	],
 	"variable": [
 		{
-			"id": "fe87ec07-8f6f-4bc6-a680-3ab57e5108d3",
+			"id": "fc3f41bd-0567-42e5-9a5a-89684a354449",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "5fed485e-b2d8-4150-af0d-62c067fe7bdc",
+			"id": "922e2336-6bd0-44fb-8c95-af9d4ce8c2ab",
 			"key": "collectionVariable",
 			"value": ""
 		},
 		{
-			"id": "321b5749-74e1-4d8e-aa8e-011623513239",
+			"id": "68ac426a-442c-40e6-9598-933c54e8148b",
 			"key": "Random_Email",
 			"value": ""
 		},
 		{
-			"id": "55c0d2d7-b607-40fb-86ce-dee512969ecd",
+			"id": "836a3da0-517b-496c-9856-d3e2fc6fe070",
 			"key": "Random_Name",
 			"value": ""
 		}
