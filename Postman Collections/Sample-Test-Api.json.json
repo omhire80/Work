@@ -467,7 +467,7 @@
 									"\r",
 									"var Email= \"om\"+ random+ \"@gamil.com\";\r",
 									"\r",
-									"pm.environment.set(\"Random_Email\"')"
+									"pm.environment.set(\"Random_Email\",Email);"
 								],
 								"type": "text/javascript"
 							}
@@ -692,13 +692,13 @@
 	],
 	"variable": [
 		{
-			"id": "af5c5432-eff0-44a4-857a-47b5892a055f",
+			"id": "9e281254-fe5d-4656-83bf-9bd716e6a1d5",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "28051d39-e78b-4769-b27d-1f313db4c979",
+			"id": "ad374a83-82e4-4fa8-babc-e1eda6a903e7",
 			"key": "collectionVariable",
 			"value": ""
 		}
