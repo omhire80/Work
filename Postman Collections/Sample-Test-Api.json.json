@@ -9,7 +9,7 @@
 			"name": "Validate",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "New user",
 					"event": [
 						{
 							"listen": "prerequest",
@@ -45,92 +45,6 @@
 								}
 							]
 						}
-					},
-					"response": []
-				},
-				{
-					"name": "New Request",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"id": "67ecdf03-ca48-4f18-bd7b-01bb4e56535a",
-								"exec": [
-									"//Request Level Test Script\r",
-									"console.log(\"Test Script at Request Level\");\r",
-									"\r",
-									"\r",
-									"\r",
-									"//1. Validating Test Status\r",
-									"    pm.test(\"Status is Present\",function(){\r",
-									"        //,function(){}  OR   ,()=>{}   Same\r",
-									"        pm.response.to.have.status(200) });\r",
-									"\r",
-									"    pm.test(\"Multiple Status Code Present\",()=>{//check multiple status codes\r",
-									"        pm.expect(pm.response.code).to.be.oneOf([200,201]);//values are always in array \r",
-									"    });\r",
-									"\r",
-									"//2. Validating Responce Time\r",
-									"    pm.test(\"ResponceTime is Less\",()=>{\r",
-									"        pm.expect(pm.response.responseTime).to.be.below(2002);\r",
-									"    })\r",
-									"\r",
-									"//3. Validating Status code text\r",
-									"    pm.test(\"Satus text is OK\",()=>{\r",
-									"         pm.response.to.have.status(\"OK\")//Status is case Sensitive \r",
-									"    })\r",
-									"\r",
-									"//4. Validating Headers Present or Not\r",
-									"    pm.test(\"Status text is String\",()=>{\r",
-									"         pm.response.to.have.header(\"age\");//Headers are Not-Case Sensitive \r",
-									"    })\r",
-									"\r",
-									"//5. Validating responce header Having specific value\r",
-									"    pm.test(\"Connection Header is keep-alive\",function(){\r",
-									"        pm.expect(pm.response.headers.get('Connection')).to.eql('keep-alive');//value is case sensitive\r",
-									"    })\r",
-									"\r",
-									"//6. VALIDATING Cookies is Present\r",
-									"   // pm.test(\"Cookie 'name of Cookie' is present\",()=>{\r",
-									"     //   pm.expect(pm.cookies.has('name of Cookie')).to.be.true })\r",
-									"\r",
-									"//7. VALIDATING Cookies Value\r",
-									"//   pm.test(\"Cookie 'name of Cookie' is present\",()=>{\r",
-									"  //   pm.expect(pm.cookies.has('name of Cookie')).to.eql('Value') })\r",
-									""
-								],
-								"type": "text/javascript"
-							}
-						},
-						{
-							"listen": "prerequest",
-							"script": {
-								"id": "bc014f20-8a61-4fe8-b0cc-3ed650bf89ff",
-								"exec": [
-									"//Request Level Pre-Request Script\r",
-									"console.log(\"Pre-request Script at Request Level\");"
-								],
-								"type": "text/javascript"
-							}
-						}
-					],
-					"id": "a2f57e52-c21f-4a66-9dad-dcddade26857",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "\"Message\"",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "{{url_Collection}}/api/user/2"
 					},
 					"response": []
 				},
@@ -246,6 +160,92 @@
 								}
 							]
 						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "67ecdf03-ca48-4f18-bd7b-01bb4e56535a",
+								"exec": [
+									"//Request Level Test Script\r",
+									"console.log(\"Test Script at Request Level\");\r",
+									"\r",
+									"\r",
+									"\r",
+									"//1. Validating Test Status\r",
+									"    pm.test(\"Status is Present\",function(){\r",
+									"        //,function(){}  OR   ,()=>{}   Same\r",
+									"        pm.response.to.have.status(200) });\r",
+									"\r",
+									"    pm.test(\"Multiple Status Code Present\",()=>{//check multiple status codes\r",
+									"        pm.expect(pm.response.code).to.be.oneOf([200,201]);//values are always in array \r",
+									"    });\r",
+									"\r",
+									"//2. Validating Responce Time\r",
+									"    pm.test(\"ResponceTime is Less\",()=>{\r",
+									"        pm.expect(pm.response.responseTime).to.be.below(2002);\r",
+									"    })\r",
+									"\r",
+									"//3. Validating Status code text\r",
+									"    pm.test(\"Satus text is OK\",()=>{\r",
+									"         pm.response.to.have.status(\"OK\")//Status is case Sensitive \r",
+									"    })\r",
+									"\r",
+									"//4. Validating Headers Present or Not\r",
+									"    pm.test(\"Status text is String\",()=>{\r",
+									"         pm.response.to.have.header(\"age\");//Headers are Not-Case Sensitive \r",
+									"    })\r",
+									"\r",
+									"//5. Validating responce header Having specific value\r",
+									"    pm.test(\"Connection Header is keep-alive\",function(){\r",
+									"        pm.expect(pm.response.headers.get('Connection')).to.eql('keep-alive');//value is case sensitive\r",
+									"    })\r",
+									"\r",
+									"//6. VALIDATING Cookies is Present\r",
+									"   // pm.test(\"Cookie 'name of Cookie' is present\",()=>{\r",
+									"     //   pm.expect(pm.cookies.has('name of Cookie')).to.be.true })\r",
+									"\r",
+									"//7. VALIDATING Cookies Value\r",
+									"//   pm.test(\"Cookie 'name of Cookie' is present\",()=>{\r",
+									"  //   pm.expect(pm.cookies.has('name of Cookie')).to.eql('Value') })\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "bc014f20-8a61-4fe8-b0cc-3ed650bf89ff",
+								"exec": [
+									"//Request Level Pre-Request Script\r",
+									"console.log(\"Pre-request Script at Request Level\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "a2f57e52-c21f-4a66-9dad-dcddade26857",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\"Message\"",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{url_Collection}}/api/user/2"
 					},
 					"response": []
 				},
@@ -595,13 +595,13 @@
 	],
 	"variable": [
 		{
-			"id": "4641f498-de41-43a2-bd68-19444b47882d",
+			"id": "716a8bcd-8e14-46ba-84f8-278951568a7b",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "14a1f43b-f84b-4933-9420-d58d3e3b3360",
+			"id": "7218708f-c98c-4839-baf7-6f290764cd7d",
 			"key": "collectionVariable",
 			"value": ""
 		}
