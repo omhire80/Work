@@ -364,8 +364,11 @@
 							"script": {
 								"id": "eeb0a47b-3c6a-4d59-a805-a2af7749a3ff",
 								"exec": [
+									"//To Save the response in (var json) variable\r",
 									"var json= JSON.parse(responceBody);\r",
-									"pm.environment.set(\"email\",json.id)"
+									"\r",
+									"//Creating Environmental variable\r",
+									"pm.environment.set(\"email\",json.id);"
 								],
 								"type": "text/javascript"
 							}
@@ -422,13 +425,13 @@
 	],
 	"variable": [
 		{
-			"id": "34c4852f-fa07-433e-af5e-8d948edaf448",
+			"id": "6affa3c0-e38a-47da-97db-34dede03f2c4",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "3af02b11-a8e1-4722-9333-6abf0baa28a1",
+			"id": "a6874d62-4a94-4456-b0d2-44ed86d1fe55",
 			"key": "collectionVariable",
 			"value": ""
 		}
