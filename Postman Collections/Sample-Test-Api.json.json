@@ -464,7 +464,7 @@
 									"pm.globals.set(\"URL\",\"https://gorest.co.in\");\r",
 									"\r",
 									"//Create Random Variables\r",
-									"    //var random =Store randomly created data\r",
+									"    //1. var random =Store randomly created data\r",
 									"    var random= Math.random().toString(30).substring(5);\r",
 									"\r",
 									"        //Random Email Create\r",
@@ -472,7 +472,7 @@
 									"\r",
 									"        //Random Name Create\r",
 									"        var name=\"Joker\" +random;\r",
-									"\r",
+									"    //2.Set it as Environment Variable to get use it\r",
 									"    pm.environment.set(\"Random_Email\",Email);"
 								],
 								"type": "text/javascript"
@@ -698,13 +698,13 @@
 	],
 	"variable": [
 		{
-			"id": "fea2ebca-937f-4667-9fba-39fc00c28e4b",
+			"id": "da25fe0e-7c3b-4985-af70-84d573ed94f0",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "9f43f366-fd4e-4070-9d73-0c0f769a05df",
+			"id": "670d5992-afd2-4cc9-b431-ee6b1efb35ad",
 			"key": "collectionVariable",
 			"value": ""
 		}
