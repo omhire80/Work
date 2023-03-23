@@ -567,7 +567,7 @@
 								}
 							}
 						},
-						"url": "https://gorest.co.in/public/v2/users/1"
+						"url": "{{URL}}/public/v2/users/1"
 					},
 					"response": []
 				},
@@ -670,13 +670,13 @@
 	],
 	"variable": [
 		{
-			"id": "c6e111be-8e88-4a37-a561-7f13074cce42",
+			"id": "e06d9cfa-9487-4218-a4cc-5dc36c2d0356",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "70688476-6770-4518-96e3-79421b6093cf",
+			"id": "768bbf0f-06ea-4ab6-b205-4808a8fd45b9",
 			"key": "collectionVariable",
 			"value": ""
 		}
