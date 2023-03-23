@@ -465,7 +465,7 @@
 									"\r",
 									"var random= Math.random().toString(30).substring(5);\r",
 									"\r",
-									"var Emai= \"om\"+ random+ \"@gamil.com\";\r",
+									"var Email= \"om\"+ random+ \"@gamil.com\";\r",
 									"\r",
 									"pm.environment.set(\"Random_Email\"')"
 								],
@@ -692,13 +692,13 @@
 	],
 	"variable": [
 		{
-			"id": "f3264edd-3a9f-455b-a0a2-bd2befbe1360",
+			"id": "af5c5432-eff0-44a4-857a-47b5892a055f",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "ecda3b26-04de-426b-a039-601634cb40ab",
+			"id": "28051d39-e78b-4769-b27d-1f313db4c979",
 			"key": "collectionVariable",
 			"value": ""
 		}
