@@ -518,7 +518,11 @@
 								"exec": [
 									"// Validating json data values with POST request \r",
 									"\r",
+									"pm.test(\"Validate json data\",()=>{\r",
+									"   var post_json= pm.response.get(\"ID\");\r",
+									"    pm.expect(json.id).to.eql()\r",
 									"\r",
+									"}),\r",
 									"\r",
 									" //1. Validating Test Status\r",
 									"    pm.test(\"Status is Present\",function(){\r",
@@ -695,23 +699,23 @@
 	],
 	"variable": [
 		{
-			"id": "babd80bd-3894-4330-9970-c8c12a0facd9",
+			"id": "dece51ba-e69d-4e7c-919f-a3355b69e354",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "ede881fa-d92a-4ec3-b02b-2ea95b7e5cdc",
+			"id": "8334985b-b01c-4f42-b18e-6d54dd91737d",
 			"key": "collectionVariable",
 			"value": ""
 		},
 		{
-			"id": "fa5ccfa1-d840-43c1-a568-aeced28ac85d",
+			"id": "ba1f0da0-8bdf-4ca2-ac99-2e377599b29f",
 			"key": "Random_Email",
 			"value": ""
 		},
 		{
-			"id": "0282fae9-3b84-4c91-a377-ef781fc8c6a0",
+			"id": "a5ebfb7c-8e8c-48cf-be5b-4092771444d4",
 			"key": "Random_Name",
 			"value": ""
 		}
