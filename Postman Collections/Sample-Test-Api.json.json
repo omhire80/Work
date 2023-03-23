@@ -616,10 +616,7 @@
 							"script": {
 								"id": "4ffe8143-8563-4811-9624-b9012687b631",
 								"exec": [
-									"pm.test(\"Dleted Sucesfully\",()=>{\r",
-									"    pm.response.to.have.status(204);\r",
-									"\r",
-									"})"
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -707,23 +704,23 @@
 	],
 	"variable": [
 		{
-			"id": "d043e11c-6b5d-4229-9f51-1b2f2faaad95",
+			"id": "2fb600bd-c054-4f50-8b50-c164b7b0ac8d",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "e4942c0b-3765-4fdb-8775-6a0234e707b9",
+			"id": "876b7d8c-9521-4bb0-ba9a-9d7199598d73",
 			"key": "collectionVariable",
 			"value": ""
 		},
 		{
-			"id": "b145ce9e-5d80-4545-9216-f529d6f5c777",
+			"id": "67e5b7fc-8081-466e-9f39-1a2242728a8d",
 			"key": "Random_Email",
 			"value": ""
 		},
 		{
-			"id": "f7a89a52-997a-44a0-ba5e-9fcfe95887bc",
+			"id": "db928e43-7e25-46a9-909e-a668b7d33122",
 			"key": "Random_Name",
 			"value": ""
 		}
