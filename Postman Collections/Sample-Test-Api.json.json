@@ -488,19 +488,18 @@
 									"        //,function(){}  OR   ,()=>{}   Same\r",
 									"        pm.response.to.have.status(200) });\r",
 									"\r",
-									"    pm.test(\"Multiple Status Code Present\",()=>{//check multiple status codes\r",
-									"        pm.expect(pm.response.code).to.be.oneOf([200,201]);//values are always in array \r",
-									"   });\r",
+									"//2. Validating Status code text\r",
+									"    pm.test(\"Satus text is OK\",()=>{\r",
+									"         pm.response.to.have.status(\"OK\")//Status is case Sensitive \r",
+									"    })\r",
 									"\r",
-									"//2. Validating Responce Time\r",
+									"\r",
+									"//3. Validating Responce Time\r",
 									"    pm.test(\"ResponceTime is Less\",()=>{\r",
 									"        pm.expect(pm.response.responseTime).to.be.below(2002);\r",
 									"    })\r",
 									"\r",
-									"//3. Validating Status code text\r",
-									"    pm.test(\"Satus text is OK\",()=>{\r",
-									"         pm.response.to.have.status(\"OK\")//Status is case Sensitive \r",
-									"    })\r",
+									"\r",
 									"\r",
 									"//4. Validating Headers Present or Not\r",
 									"    pm.test(\"Status text is String\",()=>{\r",
@@ -511,14 +510,6 @@
 									"    pm.test(\"Connection Header is keep-alive\",function(){\r",
 									"        pm.expect(pm.response.headers.get('Connection')).to.eql('keep-alive');//value is case sensitive\r",
 									"    })\r",
-									"\r",
-									"//6. VALIDATING Cookies is Present\r",
-									"   // pm.test(\"Cookie 'name of Cookie' is present\",()=>{\r",
-									"     //   pm.expect(pm.cookies.has('name of Cookie')).to.be.true })\r",
-									"\r",
-									"//7. VALIDATING Cookies Value\r",
-									"//   pm.test(\"Cookie 'name of Cookie' is present\",()=>{\r",
-									"  //   pm.expect(pm.cookies.has('name of Cookie')).to.eql('Value') })\r",
 									""
 								],
 								"type": "text/javascript"
@@ -595,13 +586,13 @@
 	],
 	"variable": [
 		{
-			"id": "56eaf510-176a-4a55-b2aa-0d83ad5e0e4f",
+			"id": "ba975e2c-e092-4e1d-99d1-b654de9fe68e",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "3203eb40-1535-4c7d-ad5d-6371f5d56f8d",
+			"id": "dcc8887f-431c-4b68-bbf3-43265baa579d",
 			"key": "collectionVariable",
 			"value": ""
 		}
