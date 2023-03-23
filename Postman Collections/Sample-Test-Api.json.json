@@ -396,6 +396,32 @@
 				},
 				{
 					"name": "New Request",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "5d8a1c04-58c0-483e-92c8-4dad02ebff11",
+								"exec": [
+									"\r",
+									"//1. Validating Test Status\r",
+									"    pm.test(\"Status is Present\",function(){\r",
+									"        //,function(){}  OR   ,()=>{}   Same\r",
+									"        pm.response.to.have.status(200) });\r",
+									"\r",
+									"    pm.test(\"Multiple Status Code Present\",()=>{//check multiple status codes\r",
+									"        pm.expect(pm.response.code).to.be.oneOf([200,201]);//values are always in array \r",
+									"    });\r",
+									"    \r",
+									"    \r",
+									"//5. Validating responce header Having specific value\r",
+									"    pm.test(\"Connection Header is keep-alive\",function(){\r",
+									"        pm.expect(pm.response.headers.get('Connection')).to.eql('keep-alive');//value is case sensitive\r",
+									"    })"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "193aee60-c420-4f56-ae9d-0507640173c6",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -451,13 +477,13 @@
 	],
 	"variable": [
 		{
-			"id": "c91daed5-35a2-4506-bedb-52a074fe8286",
+			"id": "306b918e-fac5-4add-ae35-002619ecd117",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "3708232c-baa3-42d0-9454-69d6706634e6",
+			"id": "e5f7770d-8817-4424-b993-6b123f88a0ba",
 			"key": "collectionVariable",
 			"value": ""
 		}
