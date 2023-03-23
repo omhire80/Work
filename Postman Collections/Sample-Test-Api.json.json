@@ -188,6 +188,66 @@
 					"response": []
 				},
 				{
+					"name": "New Request Copy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "67ecdf03-ca48-4f18-bd7b-01bb4e56535a",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "bc014f20-8a61-4fe8-b0cc-3ed650bf89ff",
+								"exec": [
+									"//Request Level Pre-Request Script\r",
+									"console.log(\"Pre-request Script at Request Level\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "1cb45d4c-e733-43c4-b31e-4cabcdd42a1b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\"Message\"",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url_Global}}/api/users?pages=20",
+							"host": [
+								"{{url_Global}}"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "pages",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "New Request",
 					"event": [
 						{
@@ -533,13 +593,13 @@
 	],
 	"variable": [
 		{
-			"id": "6e00c280-83dc-4e29-a982-877fa8281608",
+			"id": "00e8741f-8fe3-4fef-a744-594c46ed0af2",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "b9f228a6-6058-4d1e-90a3-607d4599d88f",
+			"id": "6c393735-4a66-451c-88c2-9a398cacadb8",
 			"key": "collectionVariable",
 			"value": ""
 		}
