@@ -195,7 +195,9 @@
 							"script": {
 								"id": "67ecdf03-ca48-4f18-bd7b-01bb4e56535a",
 								"exec": [
-									""
+									"pm.test(\"Status Code is Created\",()=>{\r",
+									"    pm.response.to.have.status(200);\r",
+									"})"
 								],
 								"type": "text/javascript"
 							}
@@ -593,13 +595,13 @@
 	],
 	"variable": [
 		{
-			"id": "00e8741f-8fe3-4fef-a744-594c46ed0af2",
+			"id": "4641f498-de41-43a2-bd68-19444b47882d",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "6c393735-4a66-451c-88c2-9a398cacadb8",
+			"id": "14a1f43b-f84b-4933-9420-d58d3e3b3360",
 			"key": "collectionVariable",
 			"value": ""
 		}
