@@ -577,7 +577,35 @@
 					"response": []
 				}
 			],
-			"id": "7572dae0-d1ba-485b-a629-e6f6d2d3726c"
+			"id": "7572dae0-d1ba-485b-a629-e6f6d2d3726c",
+			"auth": {
+				"type": "bearer",
+				"bearer": {
+					"token": "bfad66fb1e5dd834d1955fb2b9e593c8574bbd2654bc17d98fd26a82378924e6"
+				}
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "a3b49008-764e-48c6-9196-2148783d1530",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "a6a479f3-69a7-45ed-8206-e1f1b605bc94",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
 		}
 	],
 	"event": [
@@ -607,13 +635,13 @@
 	],
 	"variable": [
 		{
-			"id": "edf49bc7-f6ed-4bdd-8ea7-2947207510d1",
+			"id": "6813d2ea-98d7-4a96-88af-37f70ae58bb6",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "a4e03931-7a4f-46b1-a0b9-9e3ae1b15d94",
+			"id": "bef02f58-1a76-4928-88ad-5ca1c01359fc",
 			"key": "collectionVariable",
 			"value": ""
 		}
