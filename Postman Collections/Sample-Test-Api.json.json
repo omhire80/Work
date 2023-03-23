@@ -488,23 +488,18 @@
 									"        //,function(){}  OR   ,()=>{}   Same\r",
 									"        pm.response.to.have.status(200) });\r",
 									"\r",
-									"//2. Validating Status code text\r",
-									"    pm.test(\"Satus text is OK\",()=>{\r",
-									"         pm.response.to.have.status(\"OK\")//Status is case Sensitive \r",
-									"    })\r",
-									"\r",
-									"//3. Validating Responce Time\r",
+									"//2. Validating Responce Time\r",
 									"    pm.test(\"ResponceTime is Less\",()=>{\r",
 									"        pm.expect(pm.response.responseTime).to.be.below(2002);\r",
 									"    })\r",
 									"\r",
 									"\r",
-									"//4. Validating Headers Present or Not\r",
+									"//3. Validating Headers Present or Not\r",
 									"    pm.test(\"Status text is String\",()=>{\r",
 									"         pm.response.to.have.header(\"Connection\");//Headers are Not-Case Sensitive \r",
 									"    })\r",
 									"\r",
-									"//5. Validating responce header Having specific value\r",
+									"//4. Validating responce header Having specific value\r",
 									"    pm.test(\"Connection Header is keep-alive\",function(){\r",
 									"        pm.expect(pm.response.headers.get('Connection')).to.eql('keep-alive');//value is case sensitive\r",
 									"    })\r",
@@ -584,13 +579,13 @@
 	],
 	"variable": [
 		{
-			"id": "1c552a21-fe8f-405f-a225-bf7a14e4a415",
+			"id": "fd61366e-9f33-4d5d-9c39-30736e5df1e3",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "f5dd927d-5a9f-4dee-9cf5-77948f2d8d29",
+			"id": "82366014-33c4-492e-8c36-14c4e5549f34",
 			"key": "collectionVariable",
 			"value": ""
 		}
