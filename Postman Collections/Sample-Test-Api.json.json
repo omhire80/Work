@@ -481,7 +481,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\"name\": \"Sita\", \r\n\"gender\": \"male\" ,\r\n\"email\": \"Sita123@gmail.com\",\r\n\"status\": \"inactive\" \r\n}",
+							"raw": "{\r\n\"name\": \"Sita\", \r\n\"gender\": \"male\" ,\r\n\"email\": \"Sita123@gmail.com\",// Every timeto send request Change Email Mandatory\r\n\"status\": \"inactive\" \r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -670,13 +670,13 @@
 	],
 	"variable": [
 		{
-			"id": "0a098b37-5dd8-4fd9-b244-1d7cf28552ef",
+			"id": "4ee48e4d-3eaf-4bb9-8f0d-44d07ce787e5",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "5d161372-658f-417d-b1ee-89d45da63432",
+			"id": "e0e96f07-8e0c-4e2e-b29a-75d5bab2624b",
 			"key": "collectionVariable",
 			"value": ""
 		}
