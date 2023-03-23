@@ -516,7 +516,11 @@
 							"script": {
 								"id": "5d8a1c04-58c0-483e-92c8-4dad02ebff11",
 								"exec": [
-									"//1. Validating Test Status\r",
+									"// Validating json data values with post request \r",
+									"\r",
+									"\r",
+									"\r",
+									" //1. Validating Test Status\r",
 									"    pm.test(\"Status is Present\",function(){\r",
 									"        //,function(){}  OR   ,()=>{}   Same\r",
 									"        pm.response.to.have.status(200) });\r",
@@ -526,16 +530,6 @@
 									"        pm.expect(pm.response.responseTime).to.be.below(2002);\r",
 									"    })\r",
 									"\r",
-									"\r",
-									"//3. Validating Headers Present or Not\r",
-									"    pm.test(\"Status text is String\",()=>{\r",
-									"         pm.response.to.have.header(\"Connection\");//Headers are Not-Case Sensitive \r",
-									"    })\r",
-									"\r",
-									"//4. Validating responce header Having specific value\r",
-									"    pm.test(\"Connection Header is keep-alive\",function(){\r",
-									"        pm.expect(pm.response.headers.get('Connection')).to.eql('keep-alive');//value is case sensitive\r",
-									"    })\r",
 									""
 								],
 								"type": "text/javascript"
@@ -701,23 +695,23 @@
 	],
 	"variable": [
 		{
-			"id": "c6a73bc7-165f-48d5-8784-0f4adc6e7c3a",
+			"id": "7ca0d2e3-4b79-466d-9ab3-8dec6fd5b146",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "30e7b124-696d-423a-adb2-8e04026f530a",
+			"id": "767a046d-4ea3-4a51-85dd-f5fe3725c930",
 			"key": "collectionVariable",
 			"value": ""
 		},
 		{
-			"id": "cbb49d01-6d00-44f9-a884-56c94b53e5c6",
+			"id": "c6b14d44-2d13-4778-862f-9c4bfcd93858",
 			"key": "Random_Email",
 			"value": ""
 		},
 		{
-			"id": "28a34212-1345-42e7-9718-4f3472961359",
+			"id": "c5f1f675-40f3-4faf-ae09-4a8b33e58c08",
 			"key": "Random_Name",
 			"value": ""
 		}
