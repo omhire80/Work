@@ -704,23 +704,23 @@
 	],
 	"variable": [
 		{
-			"id": "2fb600bd-c054-4f50-8b50-c164b7b0ac8d",
+			"id": "69e8de4e-f7f1-4b1a-8b54-0896f93c3c64",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "876b7d8c-9521-4bb0-ba9a-9d7199598d73",
+			"id": "66a16b57-6985-445f-84aa-09ec0582351d",
 			"key": "collectionVariable",
 			"value": ""
 		},
 		{
-			"id": "67e5b7fc-8081-466e-9f39-1a2242728a8d",
+			"id": "36134709-9b73-4fed-a8a2-a41886d0d240",
 			"key": "Random_Email",
 			"value": ""
 		},
 		{
-			"id": "db928e43-7e25-46a9-909e-a668b7d33122",
+			"id": "2b35c7e0-3895-4727-a934-c64c0867317a",
 			"key": "Random_Name",
 			"value": ""
 		}
