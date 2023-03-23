@@ -522,17 +522,6 @@
 									"\r",
 									"    pm.expect(jsonData.status).to.eql(pm.response.get(\"Status\"));\r",
 									"}),\r",
-									"\r",
-									" //1. Validating Test Status\r",
-									"    pm.test(\"Status is Present\",function(){\r",
-									"        //,function(){}  OR   ,()=>{}   Same\r",
-									"        pm.response.to.have.status(200) });\r",
-									"\r",
-									"//2. Validating Responce Time\r",
-									"    pm.test(\"ResponceTime is Less\",()=>{\r",
-									"        pm.expect(pm.response.responseTime).to.be.below(2002);\r",
-									"    })\r",
-									"\r",
 									""
 								],
 								"type": "text/javascript"
@@ -721,23 +710,23 @@
 	],
 	"variable": [
 		{
-			"id": "b498b6c3-9075-49a0-ac3c-1c39fd4127d7",
+			"id": "b81ac714-507c-48a8-b714-c3a213df3c1e",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "6d97d6e7-96f6-41a9-9c4f-6a6b882b0551",
+			"id": "5bd1db07-cc61-4ced-aad6-524b7d20acd3",
 			"key": "collectionVariable",
 			"value": ""
 		},
 		{
-			"id": "5e226452-d374-45a8-b9c7-9e97220557fe",
+			"id": "5afef8ba-7147-45f4-a3a6-297c5ecb41fb",
 			"key": "Random_Email",
 			"value": ""
 		},
 		{
-			"id": "a984fff2-8203-44e5-963d-f2084fd50565",
+			"id": "bd14bf3c-eea0-4ff4-82f6-6edf805821d3",
 			"key": "Random_Name",
 			"value": ""
 		}
