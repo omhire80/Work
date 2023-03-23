@@ -393,6 +393,18 @@
 						"url": "https://reqres.in/api/register"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "193aee60-c420-4f56-ae9d-0507640173c6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "7572dae0-d1ba-485b-a629-e6f6d2d3726c"
@@ -425,13 +437,13 @@
 	],
 	"variable": [
 		{
-			"id": "6affa3c0-e38a-47da-97db-34dede03f2c4",
+			"id": "690fb01f-53f7-493c-ad6f-aec8f262cb71",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "a6874d62-4a94-4456-b0d2-44ed86d1fe55",
+			"id": "9dfd7669-c0fa-4473-af95-9d29e2dd392c",
 			"key": "collectionVariable",
 			"value": ""
 		}
