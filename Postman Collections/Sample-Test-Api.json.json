@@ -357,7 +357,7 @@
 			"name": "Api_Chaning",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "Post  Data",
 					"id": "5021373b-e9af-4e7b-8905-a29358b809f0",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -399,13 +399,13 @@
 	],
 	"variable": [
 		{
-			"id": "486858e2-7877-4c26-9533-39590c7c557e",
+			"id": "ac84f399-12f2-440d-a0df-c508e1f54deb",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "bde1285a-32d8-4b0f-be75-58511fff2190",
+			"id": "6c818019-f7f0-4de4-9886-0ac246ef360a",
 			"key": "collectionVariable",
 			"value": ""
 		}
