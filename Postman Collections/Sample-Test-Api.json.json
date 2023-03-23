@@ -405,6 +405,18 @@
 						"header": []
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "18ee6acf-2405-4fbc-8c0e-4b434a653226",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "7572dae0-d1ba-485b-a629-e6f6d2d3726c"
@@ -437,13 +449,13 @@
 	],
 	"variable": [
 		{
-			"id": "690fb01f-53f7-493c-ad6f-aec8f262cb71",
+			"id": "7fe0732e-dbd0-4f7e-80d0-948cc60f9227",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "9dfd7669-c0fa-4473-af95-9d29e2dd392c",
+			"id": "336045c5-8807-4485-8dc9-194e0d341646",
 			"key": "collectionVariable",
 			"value": ""
 		}
