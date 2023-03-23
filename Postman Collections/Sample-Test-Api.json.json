@@ -413,7 +413,7 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
+						"method": "DELETE",
 						"header": []
 					},
 					"response": []
@@ -449,13 +449,13 @@
 	],
 	"variable": [
 		{
-			"id": "7fe0732e-dbd0-4f7e-80d0-948cc60f9227",
+			"id": "d95ed2b8-2cc9-4ffe-86fb-a41e4256eb3f",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "336045c5-8807-4485-8dc9-194e0d341646",
+			"id": "c64a4585-2caf-4946-93ad-1f6f5c971e46",
 			"key": "collectionVariable",
 			"value": ""
 		}
