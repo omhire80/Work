@@ -427,7 +427,7 @@
 									"\r",
 									"//4. Validating Headers Present or Not\r",
 									"    pm.test(\"Status text is String\",()=>{\r",
-									"         pm.response.to.have.header(\"age\");//Headers are Not-Case Sensitive \r",
+									"         pm.response.to.have.header(\"Connection\");//Headers are Not-Case Sensitive \r",
 									"    })\r",
 									"\r",
 									"//5. Validating responce header Having specific value\r",
@@ -518,13 +518,13 @@
 	],
 	"variable": [
 		{
-			"id": "11a0c574-9c48-4fcb-992f-c9b6083268fc",
+			"id": "4dc67e03-f02f-44e8-ac1d-345c2c6f3c06",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "b727c8fe-3530-492b-9d6b-9abb99c5e42c",
+			"id": "a003e1a2-a2d5-43a9-93d4-a5ec997b6e19",
 			"key": "collectionVariable",
 			"value": ""
 		}
