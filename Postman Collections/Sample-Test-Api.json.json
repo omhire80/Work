@@ -454,6 +454,16 @@
 								],
 								"type": "text/javascript"
 							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "0d9db214-8332-4e51-9aa4-7a7c54eecdc1",
+								"exec": [
+									"pm.globals.set(\"URL\",\"https://gorest.co.in\")"
+								],
+								"type": "text/javascript"
+							}
 						}
 					],
 					"id": "5021373b-e9af-4e7b-8905-a29358b809f0",
@@ -478,7 +488,7 @@
 								}
 							}
 						},
-						"url": "https://gorest.co.in/public/v2/users"
+						"url": "{{URL}}/public/v2/users"
 					},
 					"response": []
 				},
@@ -660,13 +670,13 @@
 	],
 	"variable": [
 		{
-			"id": "2d89dc3c-b118-49d4-bb5c-cd924d476a6c",
+			"id": "0a098b37-5dd8-4fd9-b244-1d7cf28552ef",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "3d161245-ff02-449f-b9ed-c8806814bf2d",
+			"id": "5d161372-658f-417d-b1ee-89d45da63432",
 			"key": "collectionVariable",
 			"value": ""
 		}
