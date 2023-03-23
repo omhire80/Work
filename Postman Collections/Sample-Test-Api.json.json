@@ -521,6 +521,27 @@
 					"response": []
 				},
 				{
+					"name": "Update data",
+					"id": "2b16dd78-2e47-4d9a-ad22-381fc8d8cda9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name\": \"Tenali Rama\" ,\r\n\"gender\": \"male\" ,\r\n\"email\": \"tenali.rama@15.com\",\r\n\"status\": \"active\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Delete posted data",
 					"event": [
 						{
@@ -545,18 +566,6 @@
 						"method": "DELETE",
 						"header": [],
 						"url": "https://gorest.co.in/public/v2/users/194"
-					},
-					"response": []
-				},
-				{
-					"name": "Update data",
-					"id": "2b16dd78-2e47-4d9a-ad22-381fc8d8cda9",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": []
 					},
 					"response": []
 				}
@@ -591,13 +600,13 @@
 	],
 	"variable": [
 		{
-			"id": "f7933e9d-c5e3-47fc-b29d-9164234a904c",
+			"id": "0a54b8f8-05da-427c-af96-ec828f4e4d73",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "c7970ecd-ccf4-4b96-8a5e-e8c6e1214747",
+			"id": "f684c119-393b-41aa-9f6f-9ff2e7fbc4ca",
 			"key": "collectionVariable",
 			"value": ""
 		}
