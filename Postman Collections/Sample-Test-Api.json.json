@@ -493,12 +493,10 @@
 									"         pm.response.to.have.status(\"OK\")//Status is case Sensitive \r",
 									"    })\r",
 									"\r",
-									"\r",
 									"//3. Validating Responce Time\r",
 									"    pm.test(\"ResponceTime is Less\",()=>{\r",
 									"        pm.expect(pm.response.responseTime).to.be.below(2002);\r",
 									"    })\r",
-									"\r",
 									"\r",
 									"\r",
 									"//4. Validating Headers Present or Not\r",
@@ -586,13 +584,13 @@
 	],
 	"variable": [
 		{
-			"id": "ba975e2c-e092-4e1d-99d1-b654de9fe68e",
+			"id": "9c9f66df-630c-489e-8329-ddc8cf155a76",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "dcc8887f-431c-4b68-bbf3-43265baa579d",
+			"id": "e596e7c6-21a7-459c-8472-f0e2a1762b98",
 			"key": "collectionVariable",
 			"value": ""
 		}
