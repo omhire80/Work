@@ -358,6 +358,19 @@
 			"item": [
 				{
 					"name": "Post  Data",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "eeb0a47b-3c6a-4d59-a805-a2af7749a3ff",
+								"exec": [
+									"var json= JSON.parse(responceBody);\r",
+									"pm.environment.set(\"email\",json.id)"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "5021373b-e9af-4e7b-8905-a29358b809f0",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -367,7 +380,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"pistol\"\r\n}",
+							"raw": "{\r\n    \"name\": \"morpheus\",\r\n    \"job\": \"leader\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -409,13 +422,13 @@
 	],
 	"variable": [
 		{
-			"id": "84b31335-0b40-4f47-ac23-7ecd16fb1c1b",
+			"id": "34c4852f-fa07-433e-af5e-8d948edaf448",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "29ca8aa5-5d94-4560-8a86-5b79fd95c84b",
+			"id": "3af02b11-a8e1-4722-9333-6abf0baa28a1",
 			"key": "collectionVariable",
 			"value": ""
 		}
