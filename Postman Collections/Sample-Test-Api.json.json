@@ -516,7 +516,7 @@
 							"script": {
 								"id": "5d8a1c04-58c0-483e-92c8-4dad02ebff11",
 								"exec": [
-									"// Validating json data values with post request \r",
+									"// Validating json data values with POST request \r",
 									"\r",
 									"\r",
 									"\r",
@@ -695,23 +695,23 @@
 	],
 	"variable": [
 		{
-			"id": "7ca0d2e3-4b79-466d-9ab3-8dec6fd5b146",
+			"id": "babd80bd-3894-4330-9970-c8c12a0facd9",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "767a046d-4ea3-4a51-85dd-f5fe3725c930",
+			"id": "ede881fa-d92a-4ec3-b02b-2ea95b7e5cdc",
 			"key": "collectionVariable",
 			"value": ""
 		},
 		{
-			"id": "c6b14d44-2d13-4778-862f-9c4bfcd93858",
+			"id": "fa5ccfa1-d840-43c1-a568-aeced28ac85d",
 			"key": "Random_Email",
 			"value": ""
 		},
 		{
-			"id": "c5f1f675-40f3-4faf-ae09-4a8b33e58c08",
+			"id": "0282fae9-3b84-4c91-a377-ef781fc8c6a0",
 			"key": "Random_Name",
 			"value": ""
 		}
