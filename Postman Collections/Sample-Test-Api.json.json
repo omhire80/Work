@@ -465,7 +465,9 @@
 									"\r",
 									"var random= Math.random().toString(30).substring(5);\r",
 									"\r",
-									"var Random_Email= \"om\"+ random+ \"@gamil.com\";"
+									"var Emai= \"om\"+ random+ \"@gamil.com\";\r",
+									"\r",
+									"pm.environment.set(\"Random_Email\"')"
 								],
 								"type": "text/javascript"
 							}
@@ -690,13 +692,13 @@
 	],
 	"variable": [
 		{
-			"id": "17d6bfb0-6231-4d28-85cd-b33e9d3000e4",
+			"id": "f3264edd-3a9f-455b-a0a2-bd2befbe1360",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "db621e60-1a2a-4f03-87bc-2dbc31967dfb",
+			"id": "ecda3b26-04de-426b-a039-601634cb40ab",
 			"key": "collectionVariable",
 			"value": ""
 		}
