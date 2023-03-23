@@ -464,7 +464,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\"name\": \"Sita\" \r\n\"gender\": \"Female\" \r\n\"email\": \"Sita@gmail.com\"\r\n\"status\": \"inactive\"\r\n}",
+							"raw": "{\r\n\"name\": \"Sita\", \r\n\"gender\": \"Female\" ,\r\n\"email\": \"Sita@gmail.com\",\r\n\"status\": \"inactive\" \r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -591,13 +591,13 @@
 	],
 	"variable": [
 		{
-			"id": "f98a867d-27ce-43a5-bc57-65249a48d657",
+			"id": "b92412b5-a8f6-46b5-a79e-a036bdebef01",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "ecb2dd09-af9b-410b-a5dd-39d3ba424777",
+			"id": "f9ca6f2f-12aa-4435-8c9e-373ea2f64279",
 			"key": "collectionVariable",
 			"value": ""
 		}
