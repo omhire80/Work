@@ -552,7 +552,7 @@
 								"id": "e962e4ce-ae81-4648-9734-1564184a3c9f",
 								"exec": [
 									"pm.test(\"Data Updated Sucessfully\",()=>{\r",
-									"    pm.response.status(200);\r",
+									"    pm.response.to.have.status(200);\r",
 									"\r",
 									"})"
 								],
@@ -685,13 +685,13 @@
 	],
 	"variable": [
 		{
-			"id": "274725c6-136d-45cd-ac12-f615a7657df7",
+			"id": "f43cbe0c-12b1-418e-96b7-a98cfd1a5abb",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "b790a4e1-4ab4-4bfd-b092-105d29b23ff9",
+			"id": "2d09c7dd-5d01-454e-a25d-811948a97756",
 			"key": "collectionVariable",
 			"value": ""
 		}
