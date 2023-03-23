@@ -464,11 +464,12 @@
 									"pm.globals.set(\"URL\",\"https://gorest.co.in\");\r",
 									"\r",
 									"//Create Random Variables\r",
-									"var random= Math.random().toString(30).substring(5);\r",
+									"    //Random Variable to Store randomly created data\r",
+									"    var random= Math.random().toString(30).substring(5);\r",
 									"\r",
-									"var Email= \"om\"+ random+ \"@gamil.com\";\r",
+									"        var Email= \"om\"+ random+ \"@gamil.com\";\r",
 									"\r",
-									"pm.environment.set(\"Random_Email\",Email);"
+									"    pm.environment.set(\"Random_Email\",Email);"
 								],
 								"type": "text/javascript"
 							}
@@ -693,13 +694,13 @@
 	],
 	"variable": [
 		{
-			"id": "a4f40c5d-f4f0-446e-a979-0d9929862478",
+			"id": "4ceda4f3-be95-484b-92d0-97c6abfe70f1",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "3f895067-982c-4d06-9f1d-f2fbfd0ac71a",
+			"id": "93815953-b5ef-4e6e-aebc-281219c23b88",
 			"key": "collectionVariable",
 			"value": ""
 		}
