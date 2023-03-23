@@ -601,7 +601,7 @@
 						},
 						"method": "DELETE",
 						"header": [],
-						"url": "{{URL}}/public/v2/users/1"
+						"url": "{{URL}}/public/v2/users/{{id}}"
 					},
 					"response": []
 				}
@@ -670,13 +670,13 @@
 	],
 	"variable": [
 		{
-			"id": "9c767e90-f4a0-4e22-9691-31b7721320e0",
+			"id": "91b2d965-191e-49c1-9e0e-83ff2f2af2d1",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "5ec4e438-61af-4b9c-a33c-4947939ded13",
+			"id": "7804a124-70d8-4300-934d-5c0891506b90",
 			"key": "collectionVariable",
 			"value": ""
 		}
