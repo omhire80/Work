@@ -549,7 +549,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Update data",
 					"id": "2b16dd78-2e47-4d9a-ad22-381fc8d8cda9",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -591,13 +591,13 @@
 	],
 	"variable": [
 		{
-			"id": "97f99424-8211-48a9-a4ca-7094ff7524ea",
+			"id": "1b7398cf-2d19-405d-8e7e-6a9c631c3bd9",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "558b19ec-f1b3-488d-aa31-5997105b6f9e",
+			"id": "24c8df15-4a38-4ed1-8ebf-507350f49f2a",
 			"key": "collectionVariable",
 			"value": ""
 		}
