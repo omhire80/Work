@@ -405,7 +405,7 @@
 									"//1. Validating Test Status\r",
 									"    pm.test(\"Status is Present\",function(){\r",
 									"        //,function(){}  OR   ,()=>{}   Same\r",
-									"        pm.response.to.have.status({ID}) });\r",
+									"        pm.response.to.have.status(200) });\r",
 									"\r",
 									"    //pm.test(\"Multiple Status Code Present\",()=>{//check multiple status codes\r",
 									"      //  pm.expect(pm.response.code).to.be.oneOf([200,201]);//values are always in array \r",
@@ -514,13 +514,13 @@
 	],
 	"variable": [
 		{
-			"id": "0aca3d8b-260c-455b-831a-8b584b0c8dd4",
+			"id": "b1f14d10-dff6-4f8c-bc43-a29625a267bc",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "56d6d453-a33f-4af9-8933-f581a866ff5a",
+			"id": "c9664ce1-413b-47ac-ade7-f03d3cc17172",
 			"key": "collectionVariable",
 			"value": ""
 		}
