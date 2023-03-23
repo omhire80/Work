@@ -527,7 +527,7 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "PATCH",
+						"method": "PUT",
 						"header": [],
 						"body": {
 							"mode": "raw",
@@ -600,13 +600,13 @@
 	],
 	"variable": [
 		{
-			"id": "0a54b8f8-05da-427c-af96-ec828f4e4d73",
+			"id": "88c346c0-dc4e-4c9d-a14c-ee12ea008477",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "f684c119-393b-41aa-9f6f-9ff2e7fbc4ca",
+			"id": "7e8573be-8286-4b8f-a8f6-2efe0d46ae73",
 			"key": "collectionVariable",
 			"value": ""
 		}
