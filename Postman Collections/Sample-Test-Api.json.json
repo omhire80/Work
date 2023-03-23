@@ -367,13 +367,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "",
+							"raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"pistol\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
-						}
+						},
+						"url": "https://reqres.in/api/register"
 					},
 					"response": []
 				}
@@ -408,13 +409,13 @@
 	],
 	"variable": [
 		{
-			"id": "b37a2744-00a2-4a89-ba9b-9496eb664fa0",
+			"id": "84b31335-0b40-4f47-ac23-7ecd16fb1c1b",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "15532865-f69f-4577-86e6-94206c35cd28",
+			"id": "29ca8aa5-5d94-4560-8a86-5b79fd95c84b",
 			"key": "collectionVariable",
 			"value": ""
 		}
