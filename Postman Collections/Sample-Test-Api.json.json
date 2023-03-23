@@ -539,7 +539,7 @@
 						},
 						"method": "GET",
 						"header": [],
-						"url": "{{URL}}/public/v2/users/{{id}}"
+						"url": "{{URL}}/public/v2/users/{{ID}}"
 					},
 					"response": []
 				},
@@ -670,13 +670,13 @@
 	],
 	"variable": [
 		{
-			"id": "eae9ff80-3494-44b1-8df3-0f7b7bd167b5",
+			"id": "93625edd-1cc1-453d-a0a6-87c6ca95f8c9",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "75a7e613-4d99-4bda-ae80-06b1588ef968",
+			"id": "3c5cd384-4dff-42b2-b4df-5ee863352b0a",
 			"key": "collectionVariable",
 			"value": ""
 		}
