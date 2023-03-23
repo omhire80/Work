@@ -547,6 +547,18 @@
 						"url": "https://gorest.co.in/public/v2/users/194"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "2b16dd78-2e47-4d9a-ad22-381fc8d8cda9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "7572dae0-d1ba-485b-a629-e6f6d2d3726c"
@@ -579,13 +591,13 @@
 	],
 	"variable": [
 		{
-			"id": "df5ee2d1-d998-4f39-98db-bc28ce935d03",
+			"id": "c96e8f41-0174-48ae-acd2-0b0c523ed824",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "bc15e6f1-8ab8-418b-a5a8-b7a11a2d7057",
+			"id": "541302f3-a654-4d55-b0f6-7ebb637b4db6",
 			"key": "collectionVariable",
 			"value": ""
 		}
