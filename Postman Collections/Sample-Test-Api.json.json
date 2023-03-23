@@ -460,6 +460,7 @@
 							"script": {
 								"id": "0d9db214-8332-4e51-9aa4-7a7c54eecdc1",
 								"exec": [
+									"//Local VAriable\r",
 									"pm.globals.set(\"URL\",\"https://gorest.co.in\")"
 								],
 								"type": "text/javascript"
@@ -685,13 +686,13 @@
 	],
 	"variable": [
 		{
-			"id": "c0de63b2-c915-4fa1-9387-da9d645691ce",
+			"id": "cf344ca3-b4f5-483f-8116-c071cc650762",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "d99e263b-9a2b-4115-98d7-46b7b5d20252",
+			"id": "38c983a9-e01c-4878-abe0-abb2be150f80",
 			"key": "collectionVariable",
 			"value": ""
 		}
