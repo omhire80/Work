@@ -390,7 +390,7 @@
 								}
 							}
 						},
-						"url": "https://reqres.in/api/register"
+						"url": "https://reqres.in/api/users"
 					},
 					"response": []
 				},
@@ -449,13 +449,13 @@
 	],
 	"variable": [
 		{
-			"id": "d95ed2b8-2cc9-4ffe-86fb-a41e4256eb3f",
+			"id": "61fed686-89ba-44c2-9f70-b23e3bad67f6",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "c64a4585-2caf-4946-93ad-1f6f5c971e46",
+			"id": "a21a1042-a139-4277-932a-e30bc7ea5fdb",
 			"key": "collectionVariable",
 			"value": ""
 		}
