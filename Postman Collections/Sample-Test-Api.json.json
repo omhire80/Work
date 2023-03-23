@@ -415,7 +415,8 @@
 					},
 					"request": {
 						"method": "DELETE",
-						"header": []
+						"header": [],
+						"url": "https://reqres.in/api/users/{{ID}}"
 					},
 					"response": []
 				}
@@ -450,13 +451,13 @@
 	],
 	"variable": [
 		{
-			"id": "cd6dd60b-ba27-4c0f-8a84-14519ea6efa6",
+			"id": "c91daed5-35a2-4506-bedb-52a074fe8286",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "5b2e06c1-3aa5-494b-b27c-c1660b33a3ce",
+			"id": "3708232c-baa3-42d0-9454-69d6706634e6",
 			"key": "collectionVariable",
 			"value": ""
 		}
