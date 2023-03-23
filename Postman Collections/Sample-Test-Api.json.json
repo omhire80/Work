@@ -116,7 +116,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{url_Global}}/api/users?pages=2",
+							"raw": "{{url_Global}}/api/users?pages=20",
 							"host": [
 								"{{url_Global}}"
 							],
@@ -127,7 +127,7 @@
 							"query": [
 								{
 									"key": "pages",
-									"value": "2"
+									"value": "20"
 								}
 							]
 						}
@@ -533,13 +533,13 @@
 	],
 	"variable": [
 		{
-			"id": "a51dabb0-3be5-4e68-880a-e60062dd7f69",
+			"id": "93cd7872-3c1a-49b3-9890-c7a64b2ecb6e",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "93782df5-8107-47ba-ab02-8d19112e863f",
+			"id": "6fee64eb-93d9-4989-b76f-48ef137e2334",
 			"key": "collectionVariable",
 			"value": ""
 		}
