@@ -411,9 +411,9 @@
 									"        //,function(){}  OR   ,()=>{}   Same\r",
 									"        pm.response.to.have.status(200) });\r",
 									"\r",
-									"    //pm.test(\"Multiple Status Code Present\",()=>{//check multiple status codes\r",
-									"      //  pm.expect(pm.response.code).to.be.oneOf([200,201]);//values are always in array \r",
-									"   // });\r",
+									"    pm.test(\"Multiple Status Code Present\",()=>{//check multiple status codes\r",
+									"        pm.expect(pm.response.code).to.be.oneOf([200,201]);//values are always in array \r",
+									"   });\r",
 									"\r",
 									"//2. Validating Responce Time\r",
 									"    pm.test(\"ResponceTime is Less\",()=>{\r",
@@ -518,13 +518,13 @@
 	],
 	"variable": [
 		{
-			"id": "bd8f5d77-aabe-4384-9095-04842401c67c",
+			"id": "11a0c574-9c48-4fcb-992f-c9b6083268fc",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "d696a08e-5168-4ba2-95c9-1b09c5513043",
+			"id": "b727c8fe-3530-492b-9d6b-9abb99c5e42c",
 			"key": "collectionVariable",
 			"value": ""
 		}
