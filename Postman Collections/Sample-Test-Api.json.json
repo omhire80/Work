@@ -464,7 +464,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"morpheus\",\r\n    \"job\": \"leader\"\r\n}",
+							"raw": "{\r\n\"name\": \"Tenali Rama\" \r\n\"gender\": \"male\" \r\n\"email\": \"tenali.rama@15.com\"\r\n\"status\": \"active\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -591,13 +591,13 @@
 	],
 	"variable": [
 		{
-			"id": "1b7398cf-2d19-405d-8e7e-6a9c631c3bd9",
+			"id": "4d4395b9-968f-45be-b7d0-c180b28e39c3",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "24c8df15-4a38-4ed1-8ebf-507350f49f2a",
+			"id": "bb185297-7734-46ff-ba38-f504b417a8f2",
 			"key": "collectionVariable",
 			"value": ""
 		}
