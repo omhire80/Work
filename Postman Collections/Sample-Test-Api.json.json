@@ -476,7 +476,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Get post data",
 					"event": [
 						{
 							"listen": "test",
@@ -560,7 +560,7 @@
 					"request": {
 						"method": "DELETE",
 						"header": [],
-						"url": "https://reqres.in/api/users/{{ID}}"
+						"url": "https://reqres.in/api/users/{{id}}"
 					},
 					"response": []
 				}
@@ -595,13 +595,13 @@
 	],
 	"variable": [
 		{
-			"id": "2693b9ee-1f80-4b90-90c9-924648acc7c6",
+			"id": "56eaf510-176a-4a55-b2aa-0d83ad5e0e4f",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "c9b2b9a8-8b1b-426e-a46d-1958a357beb6",
+			"id": "3203eb40-1535-4c7d-ad5d-6371f5d56f8d",
 			"key": "collectionVariable",
 			"value": ""
 		}
