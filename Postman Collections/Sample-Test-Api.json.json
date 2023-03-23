@@ -516,7 +516,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "https://reqres.in/api/users/{{id}}"
+						"url": "https://gorest.co.in/public/v2/users/194"
 					},
 					"response": []
 				},
@@ -579,13 +579,13 @@
 	],
 	"variable": [
 		{
-			"id": "c7653e10-8107-442d-bc48-94e806835887",
+			"id": "df5ee2d1-d998-4f39-98db-bc28ce935d03",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "110f937d-4242-42ff-a306-7f601c4f0f00",
+			"id": "bc15e6f1-8ab8-418b-a5a8-b7a11a2d7057",
 			"key": "collectionVariable",
 			"value": ""
 		}
