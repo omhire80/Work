@@ -518,8 +518,8 @@
 									"\r",
 									"pm.test(\"Validate json data\",()=>{\r",
 									"   var post_json= pm.response.json();\r",
-									"   \r",
-									"    pm.expect(post_json.id).to.eql(json_ID);\r",
+									"\r",
+									"    pm.expect(post_json.id).to.eql(pm.response.get(\"json_ID\"));\r",
 									"\r",
 									"    \r",
 									"})\r",
@@ -705,23 +705,23 @@
 	],
 	"variable": [
 		{
-			"id": "136b37e0-b5e9-44f2-b247-be94db539b2c",
+			"id": "2665c22e-35f7-4e8b-bb0b-594135c1e265",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "1acf53d0-2f75-4d93-9682-4f65871b9e86",
+			"id": "0f9d2806-2771-4339-be10-4170cf17d561",
 			"key": "collectionVariable",
 			"value": ""
 		},
 		{
-			"id": "33350add-401d-4456-afaf-d9a35012c333",
+			"id": "2d27b854-05c4-4f82-bdb7-dfcd72bdb27e",
 			"key": "Random_Email",
 			"value": ""
 		},
 		{
-			"id": "2e8f5295-eb69-4953-91b1-0340a4867db4",
+			"id": "584692e0-29ad-461d-9390-7d19aeb89779",
 			"key": "Random_Name",
 			"value": ""
 		}
