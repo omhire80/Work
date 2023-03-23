@@ -444,7 +444,7 @@
 									"//To Save the response in (var json) variable\r",
 									"var json= JSON.parse(responseBody);\r",
 									"\r",
-									"//Creating Environmental variable\r",
+									"//Creating Environmental variable/ Extracting Id \r",
 									"pm.environment.set(\"ID\",json.id);\r",
 									"\r",
 									"//Test\r",
@@ -701,13 +701,13 @@
 	],
 	"variable": [
 		{
-			"id": "15035d7d-0f4e-4f5d-acbe-b896b321580f",
+			"id": "67ce6baf-0426-4846-aedc-96a91f00447c",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "40d1c769-6946-4c9a-b7e6-2595b922d070",
+			"id": "950c315c-8de2-48b6-9827-165d702b5e24",
 			"key": "collectionVariable",
 			"value": ""
 		}
