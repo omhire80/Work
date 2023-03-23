@@ -102,7 +102,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request Copy",
+					"name": "Check new user",
 					"event": [
 						{
 							"listen": "test",
@@ -595,13 +595,13 @@
 	],
 	"variable": [
 		{
-			"id": "7d1fcc87-512a-4256-91d8-9077244995c9",
+			"id": "0a393479-1d26-4245-a3ca-1d52ad25d2f6",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "ca7193e3-ccc1-428c-a798-62a7121055b2",
+			"id": "ffade6c9-1e89-4f94-9cdb-ee54a5a8fa86",
 			"key": "collectionVariable",
 			"value": ""
 		}
