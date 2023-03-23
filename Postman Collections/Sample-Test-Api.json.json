@@ -464,7 +464,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\"name\": \"Tenali Rama\" \r\n\"gender\": \"male\" \r\n\"email\": \"tenali.rama@15.com\"\r\n\"status\": \"active\"\r\n}",
+							"raw": "{\r\n\"name\": \"Sita\" \r\n\"gender\": \"Female\" \r\n\"email\": \"tenali.rama@15.com\"\r\n\"status\": \"active\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -591,13 +591,13 @@
 	],
 	"variable": [
 		{
-			"id": "4d4395b9-968f-45be-b7d0-c180b28e39c3",
+			"id": "7c4792fa-0cbf-4ca2-a974-3ee71cb3e9c9",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "bb185297-7734-46ff-ba38-f504b417a8f2",
+			"id": "f94aab96-42b5-484e-b299-466e34f06c6f",
 			"key": "collectionVariable",
 			"value": ""
 		}
