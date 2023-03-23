@@ -455,7 +455,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "https://reqres.in/api/users/{{ID}}"
+						"url": "https://reqres.in/api/users/{{id}}"
 					},
 					"response": []
 				},
@@ -518,13 +518,13 @@
 	],
 	"variable": [
 		{
-			"id": "3162fa55-1ea6-4d94-a02d-ec17dea7b671",
+			"id": "b8b2e1d8-10eb-477a-af65-cfe20fc832c2",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "2b46919b-d8db-435c-ab1d-af37b80591f7",
+			"id": "4cd84eb1-6926-48eb-9b0d-c6367e254e51",
 			"key": "collectionVariable",
 			"value": ""
 		}
