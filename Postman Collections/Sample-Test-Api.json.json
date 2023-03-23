@@ -461,7 +461,9 @@
 								"id": "0d9db214-8332-4e51-9aa4-7a7c54eecdc1",
 								"exec": [
 									"//Local VAriable\r",
-									"pm.globals.set(\"URL\",\"https://gorest.co.in\")"
+									"pm.globals.set(\"URL\",\"https://gorest.co.in\");\r",
+									"\r",
+									"Math.random().toString(36).substring(5);"
 								],
 								"type": "text/javascript"
 							}
@@ -686,13 +688,13 @@
 	],
 	"variable": [
 		{
-			"id": "cf344ca3-b4f5-483f-8116-c071cc650762",
+			"id": "2cebd7b2-7fff-4314-8f69-05d89a8bee72",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "38c983a9-e01c-4878-abe0-abb2be150f80",
+			"id": "a37bb678-8d43-4d13-917c-3611f3196f3a",
 			"key": "collectionVariable",
 			"value": ""
 		}
