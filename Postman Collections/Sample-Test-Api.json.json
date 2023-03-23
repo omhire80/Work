@@ -472,7 +472,7 @@
 									"\r",
 									"        //Random Name Create\r",
 									"        var name=\"Joker\" +random;\r",
-									"    //2.Set it as Environment/Global Variable to get use it\r",
+									"    //2.Set it as Environment/Global/Collection Variable to get use it\r",
 									"    pm.environment.set(\"Random_Email\",Email);"
 								],
 								"type": "text/javascript"
@@ -698,13 +698,13 @@
 	],
 	"variable": [
 		{
-			"id": "926a08ce-bf04-414c-a71d-4983bfcd1857",
+			"id": "a5333349-ec68-4a4c-830c-392dcb7133c5",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "47ae8b64-fc51-418b-83da-7f7f4521c746",
+			"id": "581e709f-80cc-4e4f-a2bc-bc37ac2c7d75",
 			"key": "collectionVariable",
 			"value": ""
 		}
