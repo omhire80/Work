@@ -352,6 +352,11 @@
 					}
 				}
 			]
+		},
+		{
+			"name": "New Folder",
+			"item": [],
+			"id": "7572dae0-d1ba-485b-a629-e6f6d2d3726c"
 		}
 	],
 	"event": [
@@ -381,13 +386,13 @@
 	],
 	"variable": [
 		{
-			"id": "7a348e06-1592-4bfd-9296-5208e545e4d2",
+			"id": "8aac42db-9acc-4165-b72b-a42533fb732d",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "68d03c46-2013-4c1d-9ce8-59736afdc7cf",
+			"id": "eb7b73d9-2688-4408-bbf8-8d6b87d44edc",
 			"key": "collectionVariable",
 			"value": ""
 		}
