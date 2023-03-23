@@ -355,7 +355,20 @@
 		},
 		{
 			"name": "Api_Chaning",
-			"item": [],
+			"item": [
+				{
+					"name": "New Request",
+					"id": "5021373b-e9af-4e7b-8905-a29358b809f0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "7572dae0-d1ba-485b-a629-e6f6d2d3726c"
 		}
 	],
@@ -386,13 +399,13 @@
 	],
 	"variable": [
 		{
-			"id": "6d7f67b4-23d1-4903-85ee-6040d7b8bfa8",
+			"id": "396ead99-9365-4c78-995d-6a49657b425c",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "9d2dfde0-4f61-4706-98a8-cb32ec336a7f",
+			"id": "60fad065-26f4-40ba-9c20-4b80ddf67cc5",
 			"key": "collectionVariable",
 			"value": ""
 		}
