@@ -460,6 +460,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "bfad66fb1e5dd834d1955fb2b9e593c8574bbd2654bc17d98fd26a82378924e6"
+							}
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -635,13 +641,13 @@
 	],
 	"variable": [
 		{
-			"id": "401e0d78-1ac9-4aae-a5a7-2a5d98458a20",
+			"id": "0f97e11a-9a49-47f1-9a37-83b25c731be5",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "b762d529-5f7e-49d1-b433-1c6ffb20dd3b",
+			"id": "ea09fde1-92d7-4a83-93f7-897291d09954",
 			"key": "collectionVariable",
 			"value": ""
 		}
