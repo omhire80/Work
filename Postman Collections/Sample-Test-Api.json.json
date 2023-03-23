@@ -447,6 +447,7 @@
 									"//Creating Environmental variable\r",
 									"pm.environment.set(\"id\",json.id);\r",
 									"\r",
+									"//Test\r",
 									"pm.test(\"Status Code is Created\",()=>{\r",
 									"    pm.response.to.have.status(201);\r",
 									"})"
@@ -659,13 +660,13 @@
 	],
 	"variable": [
 		{
-			"id": "1cdbe94b-d152-4d16-ac9a-a3d1b1467190",
+			"id": "aeb2b79c-948a-48cf-acd8-8068b1bd8ce9",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "90753e81-56cb-4f75-b04b-2a5c41e03fd8",
+			"id": "b9035c46-5a5b-4bc3-aabc-e9ad756b3f64",
 			"key": "collectionVariable",
 			"value": ""
 		}
