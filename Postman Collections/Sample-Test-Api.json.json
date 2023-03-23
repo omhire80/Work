@@ -589,6 +589,10 @@
 									"\r",
 									"        //Random Name Create\r",
 									"        var Name=\"jay\" +random;\r",
+									"\r",
+									" //2.Set it as Environment/Global/Collection Variable to get use it\r",
+									"    pm.collectionVariables.set(\"Random_Email\",Email);\r",
+									"    pm.collectionVariables.set(\"Random_Name\", Name);\r",
 									""
 								],
 								"type": "text/javascript"
@@ -720,23 +724,23 @@
 	],
 	"variable": [
 		{
-			"id": "fc3f41bd-0567-42e5-9a5a-89684a354449",
+			"id": "f05e3a3c-b587-486a-a5c0-31be420b0bca",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "922e2336-6bd0-44fb-8c95-af9d4ce8c2ab",
+			"id": "e6622a8f-ed3b-446e-b3e2-b2c5849d7818",
 			"key": "collectionVariable",
 			"value": ""
 		},
 		{
-			"id": "68ac426a-442c-40e6-9598-933c54e8148b",
+			"id": "e3c957c3-e735-4393-80d1-5384c0038aa8",
 			"key": "Random_Email",
 			"value": ""
 		},
 		{
-			"id": "836a3da0-517b-496c-9856-d3e2fc6fe070",
+			"id": "0f32e9af-aa32-4629-a12e-a640ecab4c37",
 			"key": "Random_Name",
 			"value": ""
 		}
