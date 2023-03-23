@@ -363,8 +363,17 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						}
 					},
 					"response": []
 				}
@@ -399,13 +408,13 @@
 	],
 	"variable": [
 		{
-			"id": "ac84f399-12f2-440d-a0df-c508e1f54deb",
+			"id": "b37a2744-00a2-4a89-ba9b-9496eb664fa0",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "6c818019-f7f0-4de4-9886-0ac246ef360a",
+			"id": "15532865-f69f-4577-86e6-94206c35cd28",
 			"key": "collectionVariable",
 			"value": ""
 		}
