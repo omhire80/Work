@@ -115,7 +115,22 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{url_Global}}/api/users/500"
+						"url": {
+							"raw": "{{url_Global}}/api/users?pages=2",
+							"host": [
+								"{{url_Global}}"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "pages",
+									"value": "2"
+								}
+							]
+						}
 					},
 					"response": []
 				},
@@ -518,13 +533,13 @@
 	],
 	"variable": [
 		{
-			"id": "b8b2e1d8-10eb-477a-af65-cfe20fc832c2",
+			"id": "a51dabb0-3be5-4e68-880a-e60062dd7f69",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "4cd84eb1-6926-48eb-9b0d-c6367e254e51",
+			"id": "93782df5-8107-47ba-ab02-8d19112e863f",
 			"key": "collectionVariable",
 			"value": ""
 		}
