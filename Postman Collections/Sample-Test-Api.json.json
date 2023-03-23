@@ -467,7 +467,11 @@
 									"    //var random =Store randomly created data\r",
 									"    var random= Math.random().toString(30).substring(5);\r",
 									"\r",
+									"        //Random Email Create\r",
 									"        var Email= \"om\"+ random+ \"@gamil.com\";\r",
+									"\r",
+									"        //Random Name Create\r",
+									"        var name=\"Joker\" +random;\r",
 									"\r",
 									"    pm.environment.set(\"Random_Email\",Email);"
 								],
@@ -694,13 +698,13 @@
 	],
 	"variable": [
 		{
-			"id": "6e06cf2d-9924-4647-a4ba-7e700a135e9d",
+			"id": "fea2ebca-937f-4667-9fba-39fc00c28e4b",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "42ec67b3-412b-4ea1-b22d-67909247602f",
+			"id": "9f43f366-fd4e-4070-9d73-0c0f769a05df",
 			"key": "collectionVariable",
 			"value": ""
 		}
