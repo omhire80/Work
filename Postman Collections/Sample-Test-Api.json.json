@@ -12,6 +12,46 @@
 					"name": "New Request",
 					"event": [
 						{
+							"listen": "prerequest",
+							"script": {
+								"id": "255c8002-78be-4834-9d2d-6cdeb1ca4695",
+								"exec": [
+									"//url_Global is Global Variable= Anyone is Use in Workspace"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "f05db715-9889-4475-9610-7873381562a5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url_Global}}/api/users?pages=20",
+							"host": [
+								"{{url_Global}}"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "pages",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"event": [
+						{
 							"listen": "test",
 							"script": {
 								"id": "67ecdf03-ca48-4f18-bd7b-01bb4e56535a",
@@ -91,46 +131,6 @@
 							}
 						},
 						"url": "{{url_Collection}}/api/user/2"
-					},
-					"response": []
-				},
-				{
-					"name": "New Request",
-					"event": [
-						{
-							"listen": "prerequest",
-							"script": {
-								"id": "255c8002-78be-4834-9d2d-6cdeb1ca4695",
-								"exec": [
-									"//url_Global is Global Variable= Anyone is Use in Workspace"
-								],
-								"type": "text/javascript"
-							}
-						}
-					],
-					"id": "f05db715-9889-4475-9610-7873381562a5",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "{{url_Global}}/api/users?pages=20",
-							"host": [
-								"{{url_Global}}"
-							],
-							"path": [
-								"api",
-								"users"
-							],
-							"query": [
-								{
-									"key": "pages",
-									"value": "20"
-								}
-							]
-						}
 					},
 					"response": []
 				},
@@ -533,13 +533,13 @@
 	],
 	"variable": [
 		{
-			"id": "93cd7872-3c1a-49b3-9890-c7a64b2ecb6e",
+			"id": "6e00c280-83dc-4e29-a982-877fa8281608",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "6fee64eb-93d9-4989-b76f-48ef137e2334",
+			"id": "b9f228a6-6058-4d1e-90a3-607d4599d88f",
 			"key": "collectionVariable",
 			"value": ""
 		}
