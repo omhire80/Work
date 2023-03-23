@@ -582,6 +582,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "bfad66fb1e5dd834d1955fb2b9e593c8574bbd2654bc17d98fd26a82378924e6"
+							}
+						},
 						"method": "DELETE",
 						"header": [],
 						"url": "https://gorest.co.in/public/v2/users/1"
@@ -653,13 +659,13 @@
 	],
 	"variable": [
 		{
-			"id": "d238cacc-26fa-4759-9768-fc194bf77d11",
+			"id": "e07bd810-5cd0-4c92-8be7-ff9c6b23aea2",
 			"key": "url_Collection",
 			"value": "https://reqres.in",
 			"type": "string"
 		},
 		{
-			"id": "522d5a83-c56d-486e-9191-fe59e14da477",
+			"id": "c6d72868-942a-487d-86c8-08f84aba7b3c",
 			"key": "collectionVariable",
 			"value": ""
 		}
